@@ -1,4 +1,5 @@
 import React from 'react';
+import '../scss/Rules.scss';
 
 class Rules extends React.Component {
 
