@@ -37,6 +37,9 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <div className='sponsor-pill'>
+          Become a sponsor
+        </div>
       </>
       )
   }
