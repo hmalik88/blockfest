@@ -65,12 +65,12 @@ body {
 
 .date-text {
   position: relative;
-  left: -50px;
+  left: -15px;
 }
 
 .location-text {
   position: relative;
-  left: -30px;
+  left: -10px;
 }
 
 .apply-text {
@@ -119,6 +119,19 @@ body {
   z-index: 5;
 }
 
+.calendar-icon {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -30px;
+}
+
+.pin {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -15px;
+}
 
 
 

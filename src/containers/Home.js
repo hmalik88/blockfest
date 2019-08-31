@@ -3,6 +3,8 @@ import NavBar from '../components/NavBar'
 import FAQ from '../components/FAQ'
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
+import calendarIcon from '../assets/calendaricon.svg';
+import pin from '../assets/pin.svg';
 import '../scss/Home.scss';
 
 class Home extends React.Component {
@@ -26,8 +28,10 @@ class Home extends React.Component {
         <img className='blockText' src={blockFestText} alt='' />
         <div className='headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
         <div className='dlt-pill'>
+          <img className='calendar-icon' src={calendarIcon} alt='' />
           <div className='date-text'>December 7-8, 2019</div>
           <div className='location'>
+            <img className='pin' src={pin} alt='' />
             <div className='location-text'>New York City, NY</div>
               <div className='apply'>
                 <div className='apply-text'>Apply to Hack</div>
