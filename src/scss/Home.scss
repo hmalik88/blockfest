@@ -58,17 +58,9 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
   letter-spacing: 1px;
-  font-size: 16px;
+  font-size: 18px;
   color: #fff;
   background-color: #171A3E;
-}
-
-.apply:hover {
-  background-color: #EF034F;
-}
-
-.sponsor:hover {
-  background-color: #EF034F;
 }
 
 .date-text {
@@ -83,7 +75,7 @@ body {
 
 .apply-text {
   position: relative;
-  left: -30px;
+  left: -20px;
 }
 
 .location {
@@ -110,7 +102,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-  background-color: #171A3E;
+  background-color: #E62160;
 }
 
 .sponsor {
@@ -123,37 +115,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #171A3E;
+  background-color: #EF034F;
   z-index: 5;
 }
 
-.sponsor-pill {
-  width: 250px;
-  height: 70px;
-  border: 1px solid rgb(177, 178, 190);
-  border-right: 0px;
-  border-radius: 50px 50px 50px 50px;
-  position: absolute;
-  top: 650px;
-  right: 269px;
-  z-index: 40;
-}
 
-.sponsor-pill {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  letter-spacing: 1px;
-  font-size: 16px;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.sponsor-pill:hover {
-  background-color: #EF034F;
-}
 
 
 
