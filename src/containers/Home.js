@@ -4,6 +4,7 @@ import FAQ from '../components/FAQ'
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
 import calendarIcon from '../assets/calendaricon.svg';
+import skyline from '../assets/skyline.svg';
 import pin from '../assets/pin.svg';
 import '../scss/Home.scss';
 
@@ -41,6 +42,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
+        <img className='skyline' src={skyline} alt='' />
       </>
       )
   }
