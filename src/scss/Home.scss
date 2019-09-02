@@ -11,6 +11,8 @@ body {
   overflow-x: hidden;
 }
 
+// FIRST SECTION STYLING
+
 .home-root {
   display: flex;
   justify-content: center;
@@ -20,9 +22,9 @@ body {
 }
 
 .blockLogo {
-  height: 22%;
-  width: 22%;
-  top: 150px;
+  height: 280px;
+  width: 280px;
+  top: 100px;
   position: absolute;
   justify-self: center;
 }
@@ -43,8 +45,6 @@ body {
   position: absolute;
   z-index: 10;
 }
-
-
 
 .headline {
   color: #fff;
@@ -209,6 +209,8 @@ body {
   top: 200px;
 }
 
+//ABOUT SECTION STYLING
+
 .about-section {
   width: 100%;
   height: 500px;
@@ -243,6 +245,71 @@ body {
   position: relative;
 }
 
+// SCHEDULE SECTION STYLING
+
+.schedule-section {
+  width: 100%;
+  height: 800px;
+  background-color: #171A3E;
+  position: absolute;
+  top: 1400px;
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  color: #EF034F;
+  padding-top: 135px;
+  flex-wrap: nowrap;
+  align-items: center
+}
+
+.schedule-svg {
+  margin: auto;
+  margin-top: 0px;
+  position: relative;
+  left: 35px;
+}
+
+.schedule-grid {
+  width: 80%;
+  height: 600px;
+  position: absolute;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sat-button, .sun-button {
+  width: 350px;
+  height: 125px;
+}
+
+.saturday, .sunday {
+  width: 350px;
+  height: 75px;
+  border-radius: 32.5px 32.5px 32.5px 32.5px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #7988E4;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.saturday {
+  margin-left: 50px;
+}
+
+.sunday {
+  margin-right: 50px;
+}
+
+.selected {
+  background-color: #EF034F;
+}
 
 
 
