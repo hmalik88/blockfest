@@ -277,7 +277,8 @@ body {
   position: absolute;
   align-self: flex-end;
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
+  justify-content: center;
 }
 
 .sat-button, .sun-button {
