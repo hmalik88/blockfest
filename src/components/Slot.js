@@ -1,15 +1,13 @@
 import React from 'react';
 import '../scss/Slot.scss';
 
-class Slot extends React.Component {
-  render() {
+function Slot(props) {
     return(
       <div className='slot'>
-        <div className='slot-time'>{this.props.time}</div>
-        <div className='slot-activity'>{this.props.activity}</div>
+        <div className='slot-time'>{props.time}</div>
+        <div className='slot-activity'>{props.activity}</div>
       </div>
       )
-  }
 }
 
 export default Slot;

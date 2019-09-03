@@ -83,18 +83,22 @@ class Schedule extends React.Component {
     let scheduleSection = document.querySelector('.schedule-section');
     let scheduleGrid = document.querySelector('.schedule-grid');
     let slotPortion = document.querySelector('.slot-portion');
-    scheduleSection.style.height = '750px';
-    scheduleGrid.style.height = '550px';
-    slotPortion.style.height = '420px';
+    let judgesSection = document.querySelector('.judges-speakers-section');
+    judgesSection.style.top = '2366px'
+    scheduleSection.style.height = '830px';
+    scheduleGrid.style.height = '630px';
+    slotPortion.style.height = '500px';
   }
 
   increaseSectionHeight = () => {
     let scheduleSection = document.querySelector('.schedule-section');
     let scheduleGrid = document.querySelector('.schedule-grid');
     let slotPortion = document.querySelector('.slot-portion');
-    scheduleSection.style.height = '1200px';
-    scheduleGrid.style.height = '1000px';
-    slotPortion.style.height = '870px';
+    let judgesSection = document.querySelector('.judges-speakers-section');
+    judgesSection.style.top = '2816px'
+    scheduleSection.style.height = '1280px';
+    scheduleGrid.style.height = '1080px';
+    slotPortion.style.height = '950px';
   }
 
   render() {
