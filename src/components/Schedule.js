@@ -27,8 +27,6 @@ class Schedule extends React.Component {
   state = {isSunday: false};
 
   selectDay = e => {
-    if (e.target.className === 'sunday' && this.state.isSunday) return;
-    if (e.target.className === 'saturday' && !this.state.isSunday) return;
     let sat = document.querySelector('.saturday');
     let sun = document.querySelector('.sunday');
     let satTip = document.querySelector('.button-tip1');
@@ -39,31 +37,33 @@ class Schedule extends React.Component {
     sat.classList.remove('selected');
     sun.classList.remove('selected');
     if (e.target.className === 'sunday') {
-      slotPortion.className = 'slot-portion';
-      slotPortion.classList.add('leave');
+      sat.style.pointerEvents = 'auto';
+      slotPortion.className = 'slot-portion leave';
       setTimeout(() => {
         this.setState({isSunday: true}, () => {
-          slotPortion.classList.add('enter');
+          slotPortion.className = 'slot-portion enter';
           this.reduceSectionHeight();
         });
-      }, 300)
+      }, 350)
       sun.classList.add('selected');
       console.log('before:', window.scrollY)
       console.log('after:', window.scrollY)
       sunTip.style.display = 'inline-block';
+      sun.style.pointerEvents = 'none';
     } else {
-      slotPortion.className = 'slot-portion';
-      slotPortion.classList.add('leave');
+      sun.style.pointerEvents = 'auto';
+      slotPortion.className = 'slot-portion leave';
       setTimeout(() => {
         this.setState({isSunday: false}, () => {
-          slotPortion.classList.add('enter');
+          slotPortion.className = 'slot-portion enter';
+          this.increaseSectionHeight();
         });
-      }, 300);
+      }, 350);
       sat.classList.add('selected')
       console.log('before:', window.scrollY)
-      this.increaseSectionHeight();
       console.log('after:', window.scrollY)
       satTip.style.display = 'inline-block';
+      sat.style.pointerEvents = 'none';
     }
   }
 
