@@ -2,7 +2,7 @@ import React from 'react';
 import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Schedule from '../components/Schedule';
-import JudgesAndSpeakers from '../components/JudgesAndSpeakers';
+import Judges from '../components/Judges';
 import FAQ from '../components/FAQ';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
@@ -53,7 +53,7 @@ class Home extends React.Component {
           <Schedule />
         </div>
         <div className='judges-speakers-section'>
-          <JudgesAndSpeakers />
+          <Judges />
         </div>
       </>
       )
