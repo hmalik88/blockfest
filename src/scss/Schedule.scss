@@ -17,7 +17,7 @@
   flex-wrap: nowrap;
   flex-flow: column;
   align-self: flex-end;
-
+  opacity: 1.0;
 }
 
 .button-tip1 {
@@ -36,3 +36,16 @@
   bottom: 15px;
   display: none;
 }
+
+.slot-portion.leave {
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.slot-portion.enter {
+  opacity: 1.0;
+  transition: opacity 300ms;
+}
+
+
+
