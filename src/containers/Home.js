@@ -1,7 +1,9 @@
 import React from 'react';
-import Schedule from '../components/Schedule.js'
-import NavBar from '../components/NavBar'
-import FAQ from '../components/FAQ'
+import NavBar from '../components/NavBar';
+import About from '../components/About';
+import Schedule from '../components/Schedule';
+import JudgesAndSpeakers from '../components/JudgesAndSpeakers';
+import FAQ from '../components/FAQ';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
 import calendarIcon from '../assets/calendaricon.svg';
@@ -44,16 +46,14 @@ class Home extends React.Component {
         </div>
         <img className='skyline' src={skyline} alt='' />
         <div className='about-section'>
-          <div className='about-headline'>
-            <h1 className='headline-text'>Build the Decentralized Future</h1>
-          </div>
-          <div className='about-text'>
-            <p className='about-paragraph'>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; The leading minds in the cryptocurrency space are joining over 400 hackers from around the world to collaborate together on decentralized applications using Ethereum. With an exponential increase in adoption, developer interest, and other teams building on top of Ethereum, there has never been a better time to be a part of the community, building Web 3.0.</p>
-          </div>
+          <About />
         </div>
         <div className='schedule-section'>
           <img src={schedule} alt='' className='schedule-svg' />
           <Schedule />
+        </div>
+        <div className='judges-speakers-section'>
+          <JudgesAndSpeakers />
         </div>
       </>
       )
