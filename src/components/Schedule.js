@@ -95,7 +95,7 @@ class Schedule extends React.Component {
     let scheduleGrid = document.querySelector('.schedule-grid');
     let slotPortion = document.querySelector('.slot-portion');
     let judgesSection = document.querySelector('.judges-speakers-section');
-    judgesSection.style.top = '2816px'
+    judgesSection.style.top = '2815px'
     scheduleSection.style.height = '1280px';
     scheduleGrid.style.height = '1080px';
     slotPortion.style.height = '950px';

@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Schedule from '../components/Schedule';
 import Judges from '../components/Judges';
+import Sponsors from '../components/Sponsors';
 import FAQ from '../components/FAQ';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
@@ -54,6 +55,9 @@ class Home extends React.Component {
         </div>
         <div className='judges-speakers-section'>
           <Judges />
+        </div>
+        <div className='sponsors-section'>
+          <Sponsors />
         </div>
       </>
       )
