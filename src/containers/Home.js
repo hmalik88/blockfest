@@ -11,6 +11,8 @@ import calendarIcon from '../assets/calendaricon.svg';
 import schedule from '../assets/schedule.svg'
 import skyline from '../assets/skyline.svg';
 import pin from '../assets/pin.svg';
+import venue from '../assets/venue.svg';
+import microsoftHQ from '../assets/microsofthq.jpg'
 import '../scss/Home.scss';
 
 class Home extends React.Component {
@@ -53,11 +55,21 @@ class Home extends React.Component {
           <img src={schedule} alt='' className='schedule-svg' />
           <Schedule />
         </div>
-        <div className='judges-speakers-section'>
-          <Judges />
+        <div className='venue-section'>
+          <img src={venue} alt='' className='venue-svg' />
+          <div className='location-container'>
+            <div className='location-pic-container'>
+              <img src={microsoftHQ} alt='' className='hqPic' />
+            </div>
+            <div class="location-details-container">
+              <h1 class='microsoft-headline'>Microsoft HQ NYC</h1>
+              <p class="microsoft-headline-text">11 Times Sq. New York, NY 10036</p>
+              <a href='https://goo.gl/maps/HUgAFEMHp35bYr9y7'><button className='directions'>Click here for directions</button></a>
+            </div>
+          </div>
         </div>
-        <div className='sponsors-section'>
-          <Sponsors />
+        <div class="FAQ-section">
+          <FAQ />
         </div>
       </>
       )

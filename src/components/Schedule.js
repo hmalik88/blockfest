@@ -83,8 +83,10 @@ class Schedule extends React.Component {
     let scheduleSection = document.querySelector('.schedule-section');
     let scheduleGrid = document.querySelector('.schedule-grid');
     let slotPortion = document.querySelector('.slot-portion');
-    let judgesSection = document.querySelector('.judges-speakers-section');
-    judgesSection.style.top = '2366px'
+    let venueSection = document.querySelector('.venue-section');
+    // let judgesSection = document.querySelector('.judges-speakers-section');
+    // judgesSection.style.top = '2366px'
+    venueSection.style.top = '2366px';
     scheduleSection.style.height = '830px';
     scheduleGrid.style.height = '630px';
     slotPortion.style.height = '500px';
@@ -94,8 +96,10 @@ class Schedule extends React.Component {
     let scheduleSection = document.querySelector('.schedule-section');
     let scheduleGrid = document.querySelector('.schedule-grid');
     let slotPortion = document.querySelector('.slot-portion');
-    let judgesSection = document.querySelector('.judges-speakers-section');
-    judgesSection.style.top = '2815px'
+    let venueSection = document.querySelector('.venue-section');
+    // let judgesSection = document.querySelector('.judges-speakers-section');
+    // judgesSection.style.top = '2815px'
+    venueSection.style.top = '2815px';
     scheduleSection.style.height = '1280px';
     scheduleGrid.style.height = '1080px';
     slotPortion.style.height = '950px';

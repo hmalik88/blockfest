@@ -293,31 +293,117 @@ body {
 
 //JUDGES & SPEAKERS SECTION STYLING
 
-.judges-speakers-section {
+// .judges-speakers-section {
+//   width: 100%;
+//   height: 1020px;
+//   background-color: #171A3E;
+//   position: absolute;
+//   top: 2815px;
+//   display: grid;
+//   border-top: 10px dotted #EF034F;
+//   // border-bottom: 10px dotted #EF034F;
+//   grid-template-columns: 100%;
+//   grid-template-rows: 210px 790px;
+// }
+
+// //SPONSORS SECTION
+
+// .sponsors-section {
+//   width: 100%;
+//   height: 2000px;
+//   background-color: #fff;
+//   position: absolute;
+//   top: 3847px;
+//   display: grid;
+//   grid-template-columns: 100%;
+//   grid-template-rows: 200px 1300px;
+// }
+
+// VENUE SECTION
+
+.venue-section {
   width: 100%;
-  height: 1020px;
-  background-color: #171A3E;
-  position: absolute;
+  height: 700px;
   top: 2815px;
-  display: grid;
-  border-top: 10px dotted #EF034F;
-  // border-bottom: 10px dotted #EF034F;
-  grid-template-columns: 100%;
-  grid-template-rows: 210px 790px;
-}
-
-//SPONSORS SECTION
-
-.sponsors-section {
-  width: 100%;
-  height: 1500px;
   background-color: #fff;
   position: absolute;
-  top: 3847px;
-  display: grid;
-  grid-template-columns: 100%;
-  grid-template-rows: 200px 1300px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row;
+  flex-wrap: nowrap;
 }
+
+.venue-svg {
+  position: relative;
+  top: 135px;
+}
+
+.location-container {
+  width: 80%;
+  height: 400px;
+  background-color: #171A3E;
+  align-self: flex-end;
+  position: absolute;
+  display: flex;
+}
+
+.location-pic-container, .location-details-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-details-container {
+  flex-flow: column;
+}
+
+.hqPic {
+  width: 400px;
+  height: 300px;
+}
+
+.microsoft-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.microsoft-headline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  bottom: 50px;
+}
+
+.directions {
+  width: 350px;
+  height: 75px;
+  border-radius: 32.5px 32.5px 32.5px 32.5px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #7988E4;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+}
+
+.directions:hover {
+  background-color: darken(#7988E4, 5%)
+}
+
 
 
 

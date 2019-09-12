@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1135.2" height="31" viewBox="0 0 1135.2 31">
+  <g id="Group_28" data-name="Group 28" transform="translate(-217.536 -90)">
+    <g id="Group_26" data-name="Group 26" transform="translate(217.536 90)">
+      <line id="Line_89" data-name="Line 89" x2="501.62" transform="translate(633.58 15.5)" fill="none" stroke="silver" stroke-width="3"/>
+      <path id="star" d="M10.982,1.318l3.393,6.876,7.589,1.1-5.491,5.352,1.3,7.558-6.787-3.568L4.195,22.208l1.3-7.558L0,9.3l7.589-1.1Z" transform="translate(617.787 0.632)" fill="silver"/>
+      <line id="Line_89-2" data-name="Line 89" x1="501.62" transform="translate(0 15.5)" fill="none" stroke="silver" stroke-width="3"/>
+      <path id="star-2" data-name="star" d="M10.982,1.318,7.589,8.194,0,9.3l5.491,5.352-1.3,7.558,6.787-3.568,6.787,3.568-1.3-7.558L21.964,9.3l-7.589-1.1Z" transform="translate(495.829 0.632)" fill="silver"/>
+      <text id="Miner" transform="translate(534.974 23)" fill="silver" font-size="30" font-family="BebasNeueBold, Bebas Neue" letter-spacing="0.05em"><tspan x="0" y="0">Miner</tspan></text>
+    </g>
+  </g>
+</svg>

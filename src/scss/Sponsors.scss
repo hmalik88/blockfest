@@ -1,9 +1,38 @@
 .sponsor-svg-div {
   width: 100%;
-  height: 200px;
+  height: 225px;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   grid-column: 1;
   grid-row: 1 / 2;
 }
+
+.tier-container {
+  width: 100%;
+  height: 1775px;
+  display: flex;
+  grid-column: 1;
+  grid-row: 2 / 3;
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.gold-tier, .silver-tier, .bronze-tier {
+  width: 80%;
+  padding-top: 25px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.master, .validator, .miner {
+  width: 1135.2px;
+  height: 31px;
+}
+
+
+
+
