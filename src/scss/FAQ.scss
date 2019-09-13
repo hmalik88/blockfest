@@ -1,0 +1,44 @@
+.Q1, .Q2, .Q3, .Q4, .Q5, .Q6, .Q7 {
+  color: #fff;
+  font-family: 'Hepta Slab', serif;
+  font-weight: 600;
+  font-size: 20px;
+  width: 80%;
+  height: 60px;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.Q1 div, .Q2 div, .Q3 div, .Q4 div, .Q5 div, .Q6 div, .Q7 div {
+  position: relative;
+  left: 30px;
+}
+
+.A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+  font-family: 'Hepta Slab', serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.collapse-container {
+  display: flex;
+  width: 1107.2px;
+  position: relative;
+  bottom: 25px;
+}
+
+.addButton {
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 1175px;
+  cursor: pointer;
+}

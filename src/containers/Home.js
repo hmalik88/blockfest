@@ -8,11 +8,13 @@ import FAQ from '../components/FAQ';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
 import calendarIcon from '../assets/calendaricon.svg';
-import schedule from '../assets/schedule.svg'
+import schedule from '../assets/schedule.svg';
 import skyline from '../assets/skyline.svg';
 import pin from '../assets/pin.svg';
 import venue from '../assets/venue.svg';
-import microsoftHQ from '../assets/microsofthq.jpg'
+import microsoftHQ from '../assets/microsofthq.jpg';
+import microsoftLogo from '../assets/microsoftlogo.svg';
+import FAQlogo from '../assets/FAQ.svg';
 import '../scss/Home.scss';
 
 class Home extends React.Component {
@@ -61,14 +63,16 @@ class Home extends React.Component {
             <div className='location-pic-container'>
               <img src={microsoftHQ} alt='' className='hqPic' />
             </div>
-            <div class="location-details-container">
-              <h1 class='microsoft-headline'>Microsoft HQ NYC</h1>
-              <p class="microsoft-headline-text">11 Times Sq. New York, NY 10036</p>
-              <a href='https://goo.gl/maps/HUgAFEMHp35bYr9y7'><button className='directions'>Click here for directions</button></a>
+            <div className="location-details-container">
+              <img src={microsoftLogo} alt='' className='microsoft-logo' />
+              <h1 className='microsoft-headline'>Microsoft HQ NYC</h1>
+              <p className="microsoft-headline-text">11 Times Sq. New York, NY 10036</p>
+              <a href='https://www.google.com/maps/dir/?api=1&origin=Your+location&destination=Microsoft+Times+Square+New+York+NY&travelmode=transit' target="_blank"><button className='directions'>Click here for directions</button></a>
             </div>
           </div>
         </div>
-        <div class="FAQ-section">
+        <div className="FAQ-section">
+          <img src={FAQlogo} className='FAQ-svg' alt='' />
           <FAQ />
         </div>
       </>

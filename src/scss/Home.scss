@@ -365,6 +365,14 @@ body {
   height: 300px;
 }
 
+.microsoft-logo {
+  width: 64.5px;
+  height: 64.5px;
+  position: relative;
+  right: 250px;
+  top: 65px;
+}
+
 .microsoft-headline {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -403,6 +411,29 @@ body {
 .directions:hover {
   background-color: darken(#7988E4, 5%)
 }
+
+// FAQ-SECTION
+
+.FAQ-section {
+  width: 100%;
+  height: 1400px;
+  background: #171A3E;
+  top: 3515px;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  flex-flow: column;
+  padding-top: 135px;
+}
+
+.FAQ-svg {
+  position: relative;
+  margin-bottom: 80px;
+}
+
+
 
 
 

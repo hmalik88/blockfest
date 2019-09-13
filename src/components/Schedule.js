@@ -69,13 +69,13 @@ class Schedule extends React.Component {
 
   renderSaturday = () => {
     return SaturdaySchedule.map(el => {
-      return <Slot time={el[0]} activity={el[1]} />
+      return <Slot key={el} time={el[0]} activity={el[1]} />
     })
   }
 
   renderSunday = () => {
     return SundaySchedule.map(el => {
-      return <Slot time={el[0]} activity={el[1]} />
+      return <Slot key={el} time={el[0]} activity={el[1]} />
     })
   }
 
