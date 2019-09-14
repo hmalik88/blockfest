@@ -75,6 +75,12 @@ class Home extends React.Component {
           <img src={FAQlogo} className='FAQ-svg' alt='' />
           <FAQ />
         </div>
+        <div className='contact-section'>
+
+        </div>
+        <div className='footer'>
+
+        </div>
       </>
       )
   }
