@@ -23,6 +23,7 @@ class Home extends React.Component {
   componentDidMount() {
     let root = document.querySelector('#root');
     root.classList.add('home-root');
+    window.scrollTo(0,0);
   }
 
   componentWillUnmount() {

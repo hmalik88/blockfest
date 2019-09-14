@@ -8,6 +8,7 @@ class Rules extends React.Component {
   componentDidMount() {
     let root = document.querySelector('#root');
     root.classList.add('rules-root');
+    window.scrollTo(0,0);
   }
 
   componentWillUnmount() {
