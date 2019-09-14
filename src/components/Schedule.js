@@ -46,8 +46,6 @@ class Schedule extends React.Component {
         });
       }, 350)
       sun.classList.add('selected');
-      console.log('before:', window.scrollY)
-      console.log('after:', window.scrollY)
       sunTip.style.display = 'inline-block';
       sun.style.pointerEvents = 'none';
     } else {
@@ -60,8 +58,6 @@ class Schedule extends React.Component {
         });
       }, 350);
       sat.classList.add('selected')
-      console.log('before:', window.scrollY)
-      console.log('after:', window.scrollY)
       satTip.style.display = 'inline-block';
       sat.style.pointerEvents = 'none';
     }

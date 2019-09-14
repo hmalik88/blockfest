@@ -5,6 +5,7 @@ import Schedule from '../components/Schedule';
 import Judges from '../components/Judges';
 import Sponsors from '../components/Sponsors';
 import FAQ from '../components/FAQ';
+import { Link } from 'react-router-dom';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
 import calendarIcon from '../assets/calendaricon.svg';
@@ -76,10 +77,23 @@ class Home extends React.Component {
           <FAQ />
         </div>
         <div className='contact-section'>
-
+          <h1>Contact Us</h1>
+          <div>
+            For any questions or inquiries,<br/>
+            please reach us at <a href='mailto:info@blockfest.co'><span>info@blockfest.co</span></a>.<br/>
+            Also, follow us <a className='twitter' href='https://twitter.com/BlockFestNYC'>@BlockFestNYC</a> on Twitter!
+          </div>
         </div>
         <div className='footer'>
-
+          <div className='fl-container'>
+            <img src={blockFestLogo} className='footer-logo' alt=''/>
+          </div>
+          <div className='link-container'>
+            <Link to='/rules'>Code of Conduct</Link>
+          </div>
+          <div className='copyright-container'>
+            <div className='copyright'>Copyright © BlockFest Group 2019</div>
+          </div>
         </div>
       </>
       )
