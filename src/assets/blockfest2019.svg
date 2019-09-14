@@ -1,38 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="549.05" height="344.363" viewBox="0 0 549.05 344.363">
   <g id="Group_4" data-name="Group 4" transform="translate(-703 -368)">
-    <line id="Line_2" data-name="Line 2" y2="20" transform="translate(798.5 609.5) rotate(90)" fill="none" stroke="#eb7f2f" stroke-width="3"/>
-    <line id="Line_3" data-name="Line 3" y2="20" transform="translate(926.5 540.5) rotate(180)" fill="none" stroke="#eb7f2f" stroke-width="3"/>
-    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(703 380)" fill="#171a3e" stroke="#7988e4" stroke-width="3">
-      <rect width="280" height="141" stroke="none"/>
-      <rect x="1.5" y="1.5" width="277" height="138" fill="none"/>
+    <path id="Path_315" data-name="Path 315" d="M0,0V20" transform="translate(798.5 609.5) rotate(90)" fill="none" stroke="#eb7f2f" stroke-width="3"/>
+    <path id="Path_314" data-name="Path 314" d="M0,0V20" transform="translate(926.5 540.5) rotate(180)" fill="none" stroke="#eb7f2f" stroke-width="3"/>
+    <g id="Path_313" data-name="Path 313" transform="translate(703 380)" fill="#171a3e">
+      <path d="M 278.5 139.5 L 1.5 139.5 L 1.5 1.5 L 278.5 1.5 L 278.5 139.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 138 L 277 138 L 277 3 L 3 3 M 0 0 L 280 0 L 280 141 L 0 141 L 0 0 Z" stroke="none" fill="#7988e4"/>
     </g>
-    <g id="Rectangle_2" data-name="Rectangle 2" transform="translate(751 536)" fill="#171a3e" stroke="#7988e4" stroke-width="3">
-      <rect width="200" height="141" stroke="none"/>
-      <rect x="1.5" y="1.5" width="197" height="138" fill="none"/>
+    <g id="Path_312" data-name="Path 312" transform="translate(751 536)" fill="#171a3e">
+      <path d="M 198.5 139.5 L 1.5 139.5 L 1.5 1.5 L 198.5 1.5 L 198.5 139.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 138 L 197 138 L 197 3 L 3 3 M 0 0 L 200 0 L 200 141 L 0 141 L 0 0 Z" stroke="none" fill="#7988e4"/>
     </g>
-    <text id="Block" transform="translate(721 490)" fill="#ef034f" font-size="125" font-family="BebasNeueBold, Bebas Neue"><tspan x="0" y="0">Block</tspan></text>
+    <path id="Path_311" data-name="Path 311" d="M25.75-87.5H5V0H26.625C40.375,0,47.5-7.25,47.5-20.75v-7.125c0-9.25-2.875-15.875-10.25-18.75,6.125-2.875,8.875-8.625,8.875-17.625v-3.125C46.125-80.875,40-87.5,25.75-87.5Zm-.875,48.125c6.25,0,8.875,2.5,8.875,10.625v7.625c0,6.5-2.5,8.625-7.125,8.625H18.75V-39.375ZM25.375-75c4.875,0,7,2.75,7,9v4.875c0,7-3.125,9.25-8.25,9.25H18.75V-75ZM55.75,0H92.125V-12.5H69.5v-75H55.75Zm55-67.375c0-6.25,2.75-8.625,7.125-8.625S125-73.625,125-67.375v47.25c0,6.25-2.75,8.625-7.125,8.625s-7.125-2.375-7.125-8.625ZM97-21c0,14,7.375,22,20.875,22S138.75-7,138.75-21V-66.5c0-14-7.375-22-20.875-22S97-80.5,97-66.5Zm77.5-11.625v12.5c0,6.25-2.75,8.5-7.125,8.5s-7.125-2.25-7.125-8.5v-47.25c0-6.25,2.75-8.625,7.125-8.625s7.125,2.375,7.125,8.625V-58h13v-8.5c0-14-7-22-20.5-22s-20.5,8-20.5,22V-21c0,14,7,22,20.5,22s20.5-8,20.5-22V-32.625ZM227.25,0h14.125L222.25-48.5l19.125-39h-13.75l-18,38.125V-87.5h-13.75V0h13.75V-26.875l4.25-8Z" transform="translate(721 490)" fill="#ef034f"/>
     <g id="Path_6" data-name="Path 6" transform="translate(998 380)" fill="#171a3e">
       <path d="M 233.5 139.5 L 1.499992370605469 139.5 L 1.499992370605469 1.5 L 233.5 1.5 L 233.5 139.5 Z" stroke="none"/>
       <path d="M 2.999984741210938 3 L 2.999984741210938 138 L 232 138 L 232 3 L 2.999984741210938 3 M -1.52587890625e-05 0 L 235 0 L 235 141 L -1.52587890625e-05 141 L -1.52587890625e-05 0 Z" stroke="none" fill="#7988e4"/>
     </g>
-    <text id="Fest" transform="translate(1024 490)" fill="#fff" font-size="125" font-family="BebasNeueBold, Bebas Neue"><tspan x="0" y="0">Fest</tspan></text>
-    <text id="NYC" transform="translate(777 646)" fill="#fff" font-size="125" font-family="BebasNeueBold, Bebas Neue"><tspan x="0" y="0">NYC</tspan></text>
-    <line id="Line_8" data-name="Line 8" y2="18" transform="translate(999.5 519.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <g id="Group_3" data-name="Group 3" transform="translate(152 -4)">
-      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(816 540)" fill="#171a3e" stroke="#7988e4" stroke-width="3">
-        <rect width="230" height="141" stroke="none"/>
-        <rect x="1.5" y="1.5" width="227" height="138" fill="none"/>
-      </g>
-      <text id="_2019" data-name="2019" transform="translate(832 650)" fill="#7988e4" font-size="125" font-family="BebasNeueBold, Bebas Neue"><tspan x="0" y="0">2019</tspan></text>
+    <path id="Path_310" data-name="Path 310" d="M18.75-75H41.375V-87.5H5V0H18.75V-36.125H36.5v-12.5H18.75Zm43,0H85.5V-87.5H48V0H85.5V-12.5H61.75V-38.125H80.625v-12.5H61.75Zm30.5,8.5c0,25,26.875,28.375,26.875,46.375,0,6.25-2.75,8.5-7.125,8.5s-7.125-2.25-7.125-8.5v-6.25h-13V-21c0,14,7,22,20.5,22s20.5-8,20.5-22C132.875-46,106-49.375,106-67.375c0-6.25,2.5-8.625,6.875-8.625s6.875,2.375,6.875,8.625v3.625h13V-66.5c0-14-6.875-22-20.25-22S92.25-80.5,92.25-66.5Zm44.5-8.5h14.375V0h13.75V-75H179.25V-87.5h-42.5Z" transform="translate(1024 490)" fill="#fff"/>
+    <path id="Path_309" data-name="Path 309" d="M34.375,0H48.5V-87.5H36.25v52.375L22.125-87.5H4.875V0H17.25V-63.375ZM71.25,0H85V-29l17.375-58.5H89.25L78.75-47.625,68.25-87.5H53.875L71.25-29Zm61.625-32.625v12.5c0,6.25-2.75,8.5-7.125,8.5s-7.125-2.25-7.125-8.5v-47.25c0-6.25,2.75-8.625,7.125-8.625s7.125,2.375,7.125,8.625V-58h13v-8.5c0-14-7-22-20.5-22s-20.5,8-20.5,22V-21c0,14,7,22,20.5,22s20.5-8,20.5-22V-32.625Z" transform="translate(777 646)" fill="#fff"/>
+    <path id="Path_308" data-name="Path 308" d="M0,0V18" transform="translate(999.5 519.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <g id="Path_307" data-name="Path 307" transform="translate(968 536)" fill="#171a3e">
+      <path d="M 228.5 139.5 L 1.5 139.5 L 1.5 1.5 L 228.5 1.5 L 228.5 139.5 Z" stroke="none"/>
+      <path d="M 3 3 L 3 138 L 227 138 L 227 3 L 3 3 M 0 0 L 230 0 L 230 141 L 0 141 L 0 0 Z" stroke="none" fill="#7988e4"/>
     </g>
+    <path id="Path_316" data-name="Path 316" d="M32.25-66C32.25-40.75,5-36.5,5-10.75V0H44.75V-12.5h-26a9.461,9.461,0,0,1-.125-1.875C18.625-28.75,46-39,46-66.5c0-14-7-22-20.5-22S5-80.5,5-66.5V-58H18v-9.375C18-73.625,20.75-76,25.125-76S32.25-73.875,32.25-66Zm34.875-1.375c0-6.25,2.75-8.625,7.125-8.625s7.125,2.375,7.125,8.625v47.25c0,6.25-2.75,8.625-7.125,8.625s-7.125-2.375-7.125-8.625ZM53.375-21c0,14,7.375,22,20.875,22S95.125-7,95.125-21V-66.5c0-14-7.375-22-20.875-22s-20.875,8-20.875,22ZM112.5-66.75h10.625V0h13.75V-87.5h-9.25c-2.125,5.875-4.5,11-15.125,11Zm81.375.25c0-14-7.375-22-20.875-22s-20.875,8-20.875,22v16c0,12.875,5.125,20,15.25,20,6.125,0,10.375-2.75,12.75-7.75v16c0,8.375-2.75,10.75-7.625,10.75-4.375,0-7.125-2.375-7.125-8.625V-23.25h-13V-21c0,14,7,22,20.5,22,14.25,0,21-8,21-22.75ZM173-43c-4.375,0-7.125-2.375-7.125-8.625v-15.75c0-6.25,2.75-8.5,7.125-8.5s7.125,2.25,7.125,8.5v15.75C180.125-45.375,177.375-43,173-43Z" transform="translate(984 646)" fill="#7988e4"/>
     <path id="Path_1" data-name="Path 1" d="M18,18h9.125L36,31H0L8.706,18Z" transform="translate(752 350)" fill="#7988e4"/>
     <path id="Path_2" data-name="Path 2" d="M18,18h9.125L36,31H0L8.706,18Z" transform="translate(822 350)" fill="#7988e4"/>
     <path id="Path_3" data-name="Path 3" d="M18,18h9.125L36,31H0L8.706,18Z" transform="translate(892 350)" fill="#7988e4"/>
     <path id="Path_4" data-name="Path 4" d="M18,18h9.125L36,31H0L8.706,18Z" transform="translate(1064 350)" fill="#7988e4"/>
     <path id="Path_5" data-name="Path 5" d="M18,18h9.125L36,31H0L8.706,18Z" transform="translate(1144 350)" fill="#7988e4"/>
     <path id="Path_21" data-name="Path 21" d="M0,0,1.75,2.438,14,19.5" transform="translate(980.22 518.11)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <line id="Line_9" data-name="Line 9" x2="14.72" y2="19.11" transform="translate(999.5 518.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <line id="Line_7" data-name="Line 7" x2="17.7" y2="27.65" transform="translate(981.8 380.85)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_306" data-name="Path 306" d="M0,0,14.72,19.11" transform="translate(999.5 518.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_305" data-name="Path 305" d="M0,0,17.7,27.65" transform="translate(981.8 380.85)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_16" data-name="Path 16" d="M0,0" transform="translate(1195.5 537.5)" fill="none" stroke="#eb7f2f" stroke-width="3"/>
     <path id="Path_30" data-name="Path 30" d="M.044,136.533-.009.531" transform="translate(1250.5 417)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_19" data-name="Path 19" d="M.176-1.8,19,35" transform="translate(950.5 538.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
@@ -43,7 +41,7 @@
     <path id="Path_17" data-name="Path 17" d="M.14-2.526,19.2,35.072" transform="translate(1231.498 519.141)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_18" data-name="Path 18" d="M.173-2.464,18.765,34.28l.1.2.3.586h0" transform="translate(1231.498 383.141)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_10" data-name="Path 10" d="M-.2.763c5.2,9,19.721,34.793,19.721,34.793" transform="translate(752.5 675.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <line id="Line_15" data-name="Line 15" y2="36" transform="translate(969.5 676.23)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_304" data-name="Path 304" d="M0,0V36" transform="translate(969.5 676.23)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_11" data-name="Path 11" d="M219.224.234c-49.954-.053-200-.445-200-.445" transform="translate(751.5 710.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_14" data-name="Path 14" d="M0,0,227.7.112" transform="translate(988 710.75)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_26" data-name="Path 26" d="M0,0,.024,138.862" transform="translate(1215.5 573.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
@@ -55,9 +53,9 @@
     <path id="Path_27" data-name="Path 27" d="M1026.005,544.732l15.987,32,.055,131.536-16.029-29.22Z" transform="translate(172 -2)" fill="#2b2e57"/>
     <path id="Path_28" data-name="Path 28" d="M831.359,523.033,842.9,538.015l183.126-.034L1034.036,554l41.871.011L1060.185,523Z" transform="translate(172 -2)" fill="#2b2e57"/>
     <path id="Path_29" data-name="Path 29" d="M1026.013,388.613l16.017,31.631-.021,129.336-16-31.583Z" transform="translate(207 -2)" fill="#2b2e57"/>
-    <line id="Line_16" data-name="Line 16" x1="46" transform="translate(1206.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <line id="Line_17" data-name="Line 17" x1="11" transform="translate(959.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
-    <line id="Line_18" data-name="Line 18" x1="19" transform="translate(733.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_303" data-name="Path 303" d="M46,0H0" transform="translate(1206.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_302" data-name="Path 302" d="M11,0H0" transform="translate(959.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
+    <path id="Path_301" data-name="Path 301" d="M19,0H0" transform="translate(733.05 553.5)" fill="none" stroke="#7988e4" stroke-width="3"/>
     <path id="Path_32" data-name="Path 32" d="M0,0,29.951,33.9" transform="translate(704.22 520.11)" fill="none" stroke="#7988e4" stroke-width="3"/>
   </g>
 </svg>
