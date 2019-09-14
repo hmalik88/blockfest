@@ -85,8 +85,8 @@ class Schedule extends React.Component {
     let footer = document.querySelector('.footer');
     // let judgesSection = document.querySelector('.judges-speakers-section');
     // judgesSection.style.top = '2366px'
-    footer.style.top = '4666px';
-    contactSection.style.top = '4266px';
+    footer.style.top = '4766px';
+    contactSection.style.top = '4366px';
     FAQSection.style.top = '3066px';
     venueSection.style.top = '2366px';
     scheduleSection.style.height = '830px';
