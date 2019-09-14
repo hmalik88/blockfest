@@ -1,6 +1,7 @@
 import React from 'react';
 import Home from './containers/Home';
 import Rules from './containers/Rules';
+import './scss/App.scss';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
 

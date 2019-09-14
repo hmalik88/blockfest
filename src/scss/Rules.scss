@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,800&display=swap');
+
+body {
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  position: absolute;
+}
+
+.rules-root {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 100%;
+  grid-template-rows: 200px 1fr 350px;
+  background-color: #fff;
+}
+
+// LOGO SECTION
+
+.rule-logo-div {
+  grid-column: 1;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.rules-logo {
+  width: 180px;
+  height: 180px;
+}
+
+// RULES SECTION
+
+.rules-section {
+  grid-column: 1;
+  grid-row: 2 / 3;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-family: 'Muli', sans-serif;
+}
+
+.rules-section h2 {
+  color: rgb(86, 102, 246);
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.rule-paragraph {
+  width: 100%;
+  font-size: 13px;
+  color: rgb(31, 41, 79);
+  margin-bottom:  30px;
+}
+
+h4 {
+  font-size: 18px;
+  color: rgb(31, 41, 79);
+  margin-bottom: 30px;
+}
+
+.rule-mail {
+  text-decoration: none;
+}
+
+.rule-mail:hover {
+  text-decoration: underline;
+}
+
+li {
+  width: 100%;
+  font-size: 13px;
+  color: rgb(31, 41, 79);
+}
+
+.ninth-item {
+  margin-bottom: 30px;
+}
+
+.ninth-item div {
+  margin-bottom: 30px;
+}
+
+.last-rule {
+  margin-bottom: 150px;
+}
+
+//RULES FOOTER
+
+.rules-footer {
+  grid-column: 1;
+  grid-row: 3 / 4;
+  background-color: #171A3E;
+  display: flex;
+  align-items: center;
+  font-family: 'Muli', sans-serif;
+  flex-flow: column;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.rules-icon {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  bottom: 75px;
+}
+
+.footer-text {
+  font-size: 20px;
+  color: rgba(255,255,255,0.5);
+  position: relative;
+  margin-bottom: 10px;
+  bottom: 40px;
+}
+
+.rules-footer-email {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  position: relative;
+  bottom: 30px;
+}
+
+.rules-footer-email:hover {
+  text-decoration: underline;
+}
+
+.rules-footer-last {
+  width: 100%;
+  height: 100px;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255,255,255,0.5);
+  font-size: 14px;
+}
+
+.rules-copyright {
+  align-self: center;
+
+}
+
+.made-by {
+  align-self: center;
+  text-decoration: none;
+  color: rgba(255,255,255,0.5);
+}
+
+.made-by:hover {
+  text-decoration: underline;
+}
+
+
