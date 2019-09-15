@@ -1,9 +1,6 @@
 import React from 'react';
-import NavBar from '../components/NavBar';
 import About from '../components/About';
 import Schedule from '../components/Schedule';
-import Judges from '../components/Judges';
-import Sponsors from '../components/Sponsors';
 import FAQ from '../components/FAQ';
 import { Link } from 'react-router-dom';
 import blockFestLogo from '../assets/blockfest2019.svg';
