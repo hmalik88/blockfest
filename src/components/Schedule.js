@@ -76,41 +76,51 @@ class Schedule extends React.Component {
   }
 
   reduceSectionHeight = () => {
-    let scheduleSection = document.querySelector('.schedule-section');
-    let scheduleGrid = document.querySelector('.schedule-grid');
-    let slotPortion = document.querySelector('.slot-portion');
-    let venueSection = document.querySelector('.venue-section');
-    let FAQSection = document.querySelector('.FAQ-section');
-    let contactSection = document.querySelector('.contact-section');
-    let footer = document.querySelector('.footer');
+    let root = document.querySelector('#root');
+    let grid = document.querySelector('.schedule-grid');
+    root.classList.remove('home-root');
+    root.classList.add('home-root-short');
+    grid.className = 'schedule-grid-short';
+    // let scheduleSection = document.querySelector('.schedule-section');
+    // let scheduleGrid = document.querySelector('.schedule-grid');
+    // let slotPortion = document.querySelector('.slot-portion');
+    // let venueSection = document.querySelector('.venue-section');
+    // let FAQSection = document.querySelector('.FAQ-section');
+    // let contactSection = document.querySelector('.contact-section');
+    // let footer = document.querySelector('.footer');
     // let judgesSection = document.querySelector('.judges-speakers-section');
     // judgesSection.style.top = '2366px'
-    footer.style.top = '4802px';
-    contactSection.style.top = '4402px';
-    FAQSection.style.top = '3066px';
-    venueSection.style.top = '2366px';
-    scheduleSection.style.height = '830px';
-    scheduleGrid.style.height = '630px';
-    slotPortion.style.height = '500px';
+    // footer.style.top = '4802px';
+    // contactSection.style.top = '4402px';
+    // FAQSection.style.top = '3066px';
+    // venueSection.style.top = '2366px';
+    // scheduleSection.style.height = '830px';
+    // scheduleGrid.style.height = '630px';
+    // slotPortion.style.height = '500px';
   }
 
   increaseSectionHeight = () => {
-    let scheduleSection = document.querySelector('.schedule-section');
-    let scheduleGrid = document.querySelector('.schedule-grid');
-    let slotPortion = document.querySelector('.slot-portion');
-    let venueSection = document.querySelector('.venue-section');
-    let FAQSection = document.querySelector('.FAQ-section');
-    let contactSection = document.querySelector('.contact-section');
-    let footer = document.querySelector('.footer');
+    let root = document.querySelector('#root');
+    let grid = document.querySelector('.schedule-grid-short')
+    root.classList.remove('home-root-short');
+    root.classList.add('home-root');
+    grid.className = 'schedule-grid';
+    // let scheduleSection = document.querySelector('.schedule-section');
+    // let scheduleGrid = document.querySelector('.schedule-grid');
+    // let slotPortion = document.querySelector('.slot-portion');
+    // let venueSection = document.querySelector('.venue-section');
+    // let FAQSection = document.querySelector('.FAQ-section');
+    // let contactSection = document.querySelector('.contact-section');
+    // let footer = document.querySelector('.footer');
     // let judgesSection = document.querySelector('.judges-speakers-section');
     // judgesSection.style.top = '2815px'
-    footer.style.top = '5250px';
-    contactSection.style.top = '4850px';
-    FAQSection.style.top = '3515px';
-    venueSection.style.top = '2815px';
-    scheduleSection.style.height = '1280px';
-    scheduleGrid.style.height = '1080px';
-    slotPortion.style.height = '950px';
+    // footer.style.top = '5250px';
+    // contactSection.style.top = '4850px';
+    // FAQSection.style.top = '3515px';
+    // venueSection.style.top = '2815px';
+    // scheduleSection.style.height = '1280px';
+    // scheduleGrid.style.height = '1080px';
+    // slotPortion.style.height = '950px';
   }
 
   render() {

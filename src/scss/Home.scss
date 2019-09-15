@@ -7,20 +7,33 @@ body {
   background-size: auto;
   background-repeat: repeat;
   width: 100%;
-  height: 100%;
+  height: auto;
   margin: 0;
   overflow-x: hidden;
   position: absolute;
 }
 
-// LANDING SECTION STYLING
-
 .home-root {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  width: 100%;
+  height: auto;
+  grid-template-columns: 1;
+  grid-template-rows: 900px 500px 1400px 700px 1350px 400px 150px;
+}
+
+.home-root-short {
+  display: grid;
   width: 100%;
   height: 100%;
-  flex-wrap: no-wrap;
+  grid-template-columns: 1;
+  grid-template-rows: 900px 500px 1200px 700px 1350px 400px 150px;
+}
+
+// LANDING SECTION STYLING
+
+.landing-section {
+  grid-column: 1;
+  grid-row: 1 / 2;
 }
 
 .blockLogo {
@@ -49,7 +62,7 @@ body {
   height: 50px;
   justify-self: center;
   top: 550px;
-
+  width: 744.55px;
 }
 
 .dlt-pill {
@@ -149,11 +162,9 @@ body {
 //ABOUT SECTION STYLING
 
 .about-section {
-  width: 100%;
-  height: 500px;
+  grid-column: 1;
+  grid-row: 2 / 3;
   background-color: #fff;
-  position: absolute;
-  top: 900px;
   color: #171A3E;
   font-family: 'Hepta Slab', serif;
 }
@@ -161,11 +172,9 @@ body {
 // SCHEDULE SECTION STYLING
 
 .schedule-section {
-  width: 100%;
-  height: 1280px;
+  grid-column: 1;
+  grid-row: 3 / 4;
   background-color: #171A3E;
-  position: absolute;
-  top: 1400px;
   display: flex;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
@@ -186,6 +195,16 @@ body {
 .schedule-grid {
   width: 80%;
   height: 1080px;
+  position: absolute;
+  align-self: flex-end;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.schedule-grid-short {
+  width: 80%;
+  height: 800px;
   position: absolute;
   align-self: flex-end;
   display: flex;
@@ -255,11 +274,9 @@ body {
 // VENUE SECTION
 
 .venue-section {
-  width: 100%;
-  height: 700px;
-  top: 2815px;
+  grid-column: 1;
+  grid-row: 4 / 5;
   background-color: #fff;
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -348,11 +365,9 @@ body {
 // FAQ-SECTION
 
 .FAQ-section {
-  width: 100%;
-  height: 1200px;
+  grid-column: 1;
+  grid-row: 5 / 6;
   background: #171A3E;
-  top: 3515px;
-  position: absolute;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -369,12 +384,10 @@ body {
 // CONTACT SECTION
 
 .contact-section {
-  width: 100vw;
-  height: 400px;
+  grid-column: 1;
+  grid-row: 6 / 7;
   background-color: #EF034F;
   color: #fff;
-  position: absolute;
-  top: 4850px;
   font-family: 'Montserrat', sans-serif;
   display: flex;
   justify-content: center;
@@ -423,11 +436,9 @@ body {
 // FOOTER
 
 .footer {
-  width: 100%;
-  height: 150px;
+  grid-column: 1;
+  grid-row: 7 / 8;
   border-top: 1px solid rgb(177, 178, 190);
-  position: absolute;
-  top: 5250px;
   background-color: #EF034F;
   display: grid;
   grid-template-columns: 1fr 420px 1fr;

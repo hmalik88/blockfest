@@ -31,6 +31,7 @@ class Home extends React.Component {
   render() {
     return(
       <>
+      <div className='landing-section'>
         <img className='blockLogo' src={blockFestLogo} alt='' />
         <img className='blockText' src={blockFestText} alt='' />
         <div className='headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
@@ -49,6 +50,7 @@ class Home extends React.Component {
           </div>
         </div>
         <img className='skyline' src={skyline} alt='' />
+      </div>
         <div className='about-section'>
           <About />
         </div>
