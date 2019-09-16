@@ -6,7 +6,6 @@ import Venue from '../components/Venue';
 import FAQ from '../components/FAQ';
 import Contact from '../components/Contact';
 import Footer from '../components/Footer';
-import blockFestLogo from '../assets/blockfest2019.svg';
 import '../scss/Home.scss';
 
 class Home extends React.Component {

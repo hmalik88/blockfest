@@ -11,7 +11,7 @@ function Landing() {
     <>
       <img className='blockLogo' src={blockFestLogo} alt='' />
       <img className='blockText' src={blockFestText} alt='' />
-      <div className='headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
+      <div className='landing-headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
       <div className='dlt-pill'>
         <img className='calendar-icon' src={calendarIcon} alt='' />
         <div className='date-text'>
