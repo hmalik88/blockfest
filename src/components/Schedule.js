@@ -1,5 +1,6 @@
 import React from 'react';
 import Slot from './Slot';
+import scheduleSVG from '../assets/schedule.svg';
 import buttonTip from '../assets/buttontip.svg';
 import '../scss/Schedule.scss';
 
@@ -77,11 +78,10 @@ class Schedule extends React.Component {
 
   reduceSectionHeight = () => {
     let root = document.querySelector('#root');
-    let grid = document.querySelector('.schedule-grid');
+    let scheduleSection = document.querySelector('.schedule-section');
     root.classList.remove('home-root');
     root.classList.add('home-root-short');
-    grid.className = 'schedule-grid-short';
-    // let scheduleSection = document.querySelector('.schedule-section');
+    scheduleSection.className = 'schedule-section-short';
     // let scheduleGrid = document.querySelector('.schedule-grid');
     // let slotPortion = document.querySelector('.slot-portion');
     // let venueSection = document.querySelector('.venue-section');
@@ -101,11 +101,10 @@ class Schedule extends React.Component {
 
   increaseSectionHeight = () => {
     let root = document.querySelector('#root');
-    let grid = document.querySelector('.schedule-grid-short')
+    let scheduleSection = document.querySelector('.schedule-section-short');
     root.classList.remove('home-root-short');
     root.classList.add('home-root');
-    grid.className = 'schedule-grid';
-    // let scheduleSection = document.querySelector('.schedule-section');
+    scheduleSection.className = 'schedule-section';
     // let scheduleGrid = document.querySelector('.schedule-grid');
     // let slotPortion = document.querySelector('.slot-portion');
     // let venueSection = document.querySelector('.venue-section');
@@ -126,7 +125,10 @@ class Schedule extends React.Component {
   render() {
      let schedule = this.state.isSunday ? this.renderSunday() : this.renderSaturday();
     return(
-      <div className='schedule-grid'>
+      <>
+        <div className='schedule-svg-section'>
+          <img src={scheduleSVG} alt='' className='schedule-svg' />
+        </div>
         <div className='button-portion'>
           <div className='sat-button'>
             <button className='saturday selected' onClick={this.selectDay}>December 7th</button>
@@ -140,7 +142,7 @@ class Schedule extends React.Component {
         <div className='slot-portion'>
             {schedule}
         </div>
-      </div>
+      </>
       )
   }
 }

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 import blockFestLogo from '../assets/blockfest2019.svg';
 import blockFestText from '../assets/blockfesttext.svg';
 import calendarIcon from '../assets/calendaricon.svg';
-import schedule from '../assets/schedule.svg';
+
 import skyline from '../assets/skyline.svg';
 import pin from '../assets/pin.svg';
 import venue from '../assets/venue.svg';
@@ -55,7 +55,6 @@ class Home extends React.Component {
           <About />
         </div>
         <div className='schedule-section'>
-          <img src={schedule} alt='' className='schedule-svg' />
           <Schedule />
         </div>
         <div className='venue-section'>
