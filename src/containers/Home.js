@@ -1,14 +1,10 @@
 import React from 'react';
+import Landing from '../components/Landing.js'
 import About from '../components/About';
 import Schedule from '../components/Schedule';
 import FAQ from '../components/FAQ';
 import { Link } from 'react-router-dom';
 import blockFestLogo from '../assets/blockfest2019.svg';
-import blockFestText from '../assets/blockfesttext.svg';
-import calendarIcon from '../assets/calendaricon.svg';
-
-import skyline from '../assets/skyline.svg';
-import pin from '../assets/pin.svg';
 import venue from '../assets/venue.svg';
 import microsoftHQ from '../assets/microsofthq.jpg';
 import microsoftLogo from '../assets/microsoftlogo.svg';
@@ -32,24 +28,7 @@ class Home extends React.Component {
     return(
       <>
       <div className='landing-section'>
-        <img className='blockLogo' src={blockFestLogo} alt='' />
-        <img className='blockText' src={blockFestText} alt='' />
-        <div className='headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
-        <div className='dlt-pill'>
-          <img className='calendar-icon' src={calendarIcon} alt='' />
-          <div className='date-text'>December 7-8, 2019</div>
-          <div className='location'>
-            <img className='pin' src={pin} alt='' />
-            <div className='location-text'>New York City, NY</div>
-              <div className='apply'>
-                <div className='apply-text'>Apply to Hack</div>
-                <div className='sponsor'>
-                  Become a sponsor
-              </div>
-            </div>
-          </div>
-        </div>
-        <img className='skyline' src={skyline} alt='' />
+        <Landing />
       </div>
         <div className='about-section'>
           <About />
