@@ -36,6 +36,8 @@ body {
   grid-row: 1 / 2;
   display: flex;
   justify-content: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .blockLogo {
@@ -239,6 +241,8 @@ body {
   align-items: flex-start;
   flex-flow: row;
   flex-wrap: nowrap;
+  padding-right: 10%;
+  padding-left: 10%;
 }
 
 .venue-svg {
