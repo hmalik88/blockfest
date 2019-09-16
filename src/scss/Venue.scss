@@ -1,0 +1,85 @@
+.venue-svg-section {
+  grid-column: 1;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: center;
+}
+
+.location-section {
+  grid-column: 1;
+  grid-row: 2 / 3;
+  display: flex;
+  justify-content: center;
+}
+
+.location-container {
+  width: 80%;
+  height: 400px;
+  background-color: #171A3E;
+  align-self: flex-end;
+  display: flex;
+}
+
+.location-pic-container, .location-details-container {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.location-details-container {
+  flex-flow: column;
+}
+
+.hqPic {
+  width: 400px;
+  height: 300px;
+}
+
+.microsoft-logo {
+  width: 64.5px;
+  height: 64.5px;
+  position: relative;
+  right: 250px;
+  top: 65px;
+}
+
+.microsoft-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+
+}
+
+.microsoft-headline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #fff;
+  position: relative;
+  bottom: 50px;
+}
+
+.directions {
+  width: 350px;
+  height: 75px;
+  border-radius: 32.5px 32.5px 32.5px 32.5px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  background-color: #7988E4;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+  bottom: 20px;
+}
+
+.directions:hover {
+  background-color: darken(#7988E4, 5%)
+}

@@ -131,11 +131,15 @@ class Schedule extends React.Component {
         </div>
         <div className='button-portion'>
           <div className='sat-button'>
-            <button className='saturday selected' onClick={this.selectDay}>December 7th</button>
+            <button className='saturday selected' onClick={this.selectDay}>
+              December 7th
+            </button>
             <img src={buttonTip} className='button-tip1' alt='' />
           </div>
           <div className='sun-button'>
-            <button className='sunday' onClick={this.selectDay}>December 8th</button>
+            <button className='sunday' onClick={this.selectDay}>
+              December 8th
+            </button>
             <img src={buttonTip} className='button-tip2' alt='' />
           </div>
         </div>

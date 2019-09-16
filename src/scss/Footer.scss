@@ -1,0 +1,37 @@
+.footer-logo {
+  width: 140px;
+  height: 140px;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.fl-container {
+  grid-column: 1 / 2;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-container {
+  grid-column: 3 / 4;
+  grid-row: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

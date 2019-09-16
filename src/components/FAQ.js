@@ -1,5 +1,6 @@
 import React from 'react';
-import Collapsible from 'react-collapsible'
+import Collapsible from 'react-collapsible';
+import FAQlogo from '../assets/FAQ.svg';
 import addButton from '../assets/round-add-button.svg'
 import '../scss/FAQ.scss';
 
@@ -29,6 +30,7 @@ class FAQ extends React.Component {
   render() {
     return(
       <>
+        <img src={FAQlogo} className='FAQ-svg' alt='' />
         <img src={addButton} className='addButton1' alt='' />
         <Collapsible className='Q1' open={this.state.isOpen1} trigger='What is BlockFest NYC?' handleTriggerClick={this.handleClick} accordionPosition='1'>
           <div className='A1'>
