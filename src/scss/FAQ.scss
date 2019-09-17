@@ -66,27 +66,27 @@
   transition: height 400ms;
 }
 
-.Collapsible__contentInner {
+.Collapsible__contentInner, .Collapsible__contentOuter {
   height: 155px;
   width: 100%;
 }
 
-.Collapsible2__contentInner, .Collapsible7__contentInner {
+.Collapsible2__contentInner, .Collapsible7__contentInner, .Collapsible2__contentOuter, .Collapsible7__contentOuter {
   height: 150px;
   width: 100%;
 }
 
-.Collapsible3__contentInner, .Collapsible5__contentInner {
+.Collapsible3__contentInner, .Collapsible5__contentInner, .Collapsible3__contentOuter, .Collapsible5__contentOuter {
   height: 120px;
   width: 100%;
 }
 
-.Collapsible4__contentInner {
+.Collapsible4__contentInner, .Collapsible4__contentOuter {
   height: 100px;
   width: 100%;
 }
 
-.Collapsible6__contentInner {
+.Collapsible6__contentInner, .Collapsible6__contentOuter {
   height: 160px;
   width: 100%;
 }
@@ -113,10 +113,9 @@
   display: flex;
   justify-content: center;
   width: 1047.2px;
-  position: sticky;
   padding-left: 30px;
   padding-right: 30px;
-  margin-top: 15px;
+  margin-top: 30px;
   top: 400px;
   height: 100%;
 }
