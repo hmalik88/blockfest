@@ -26,7 +26,7 @@ class Schedule extends React.Component {
   state = {isSunday: false};
 
   componentDidMount(){
-    this.reduceSectionHeight();
+    // this.reduceSectionHeight();
   }
 
   selectDay = e => {
