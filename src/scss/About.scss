@@ -29,14 +29,27 @@
   // text-align: left;
 }
 
+.about-paragraph-mobile {
+  line-height: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
+  position: relative;
+  display: none;
+  text-align: center;
+}
+
 @media (max-width: 570px) {
 
   .about-headline {
     padding-top: 5%;
   }
 
+  .about-paragraph-mobile {
+    display: flex;
+  }
+
   .about-paragraph {
-    text-align: center;
+    display: none;
   }
 
 }

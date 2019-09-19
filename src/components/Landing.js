@@ -20,7 +20,6 @@ function Landing() {
           <img className='pin' src={pin} alt='' />
           <div className='location-text'>New York City, NY</div>
       </div>
-
       <div className='apply'>
         <a href='https://airtable.com/shrpW3DIbUY4UP27j' className='hack-link'>
           <div className='apply-text'>Apply to Hack</div>
@@ -31,7 +30,9 @@ function Landing() {
           Become a sponsor
         </a>
       </div>
-      <img className='skyline' src={skyline} alt='' />
+      <div className='skyline-container'>
+        <img className='skyline' src={skyline} alt='' />
+      </div>
     </>
     )
 }
