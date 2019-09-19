@@ -43,8 +43,21 @@
 @media (max-width: 570px) {
 
   .footer-logo {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
+  }
+
+  .fl-container {
+    padding-left: 20%;
+  }
+
+  .link-container, .copyright-container {
+    font-size: 14px;
+  }
+
+
+  .copyright-container {
+    padding-right: 25%;
   }
 
 }
