@@ -32,7 +32,7 @@
   display: flex;
   align-items: center;
   // padding-right: 20px;
-  // padding-left: 20px;
+
 }
 
 @media (max-width: 570px) {
@@ -43,6 +43,8 @@
 
   .slot-activity {
     font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
 }

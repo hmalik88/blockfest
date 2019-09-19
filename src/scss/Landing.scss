@@ -185,31 +185,38 @@
   }
 
   .location {
-    left: 30px;
-    width: 220px;
-    padding-left: 30px;
+    left: 20px;
+    height: 55px;
+    width: 180px;
+    padding-left: 15px;
+    border: 1px solid rgb(177, 178, 190);
   }
 
   .sponsor {
     right: 30px;
-    width: 200px;
+    height: 55px;
+    width: 190px;
     font-size: 14px;
     padding-left: 0px;
     justify-content: center;
+    border: 1px solid rgb(177, 178, 190);
   }
 
   .dlt-pill {
-    width: 230px;
+    width: 180px;
     font-size: 14px;
-    left: 253px;
+    left: 213px;
+    height: 55px;
   }
 
   .apply {
-    width: 200px;
-    left: 30px;
+    width: 175px;
+    height: 55px;
+    left: 20px;
     font-size: 14px;
     justify-content: center;
     padding-left: 0px;
+    border: 1px solid rgb(177, 178, 190);
   }
 
 }

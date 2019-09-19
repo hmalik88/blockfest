@@ -106,7 +106,7 @@
   grid-column: 2;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 570px) {
 
 .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
   font-size: 12px;
@@ -114,6 +114,7 @@
 
 .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7   {
   font-size: 12px;
+
 }
 
 .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
@@ -135,31 +136,48 @@
 
 .Q1-text, .Q2-text, .Q3-text, .Q4-text, .Q5-text, .Q6-text, .Q7-text {
   grid-template-columns: 1fr 65px;
+  letter-spacing: 1px;
 }
 
 .Collapsible {
-  height: 200px;
+  height: 220px;
 }
 
 .Collapsible2 {
-  height: 160px;
+  height: 180px;
 }
 
 .Collapsible3 {
-  height: 140px;
+  height: 160px;
 }
 
-.Collapsible4, .Collapsible5 {
+.Collapsible4 {
+  height: 160px;
+}
+
+.Collapsible5 {
   height: 140px;
 }
 
 .Collapsible6 {
-  height: 200px;
+  height: 240px;
 }
 
 .Collapsible7 {
-  height: 180px;
+  height: 200px;
 }
 
+.Collapsible6.Q6 {
+  height: 80px;
+}
+
+.Q6-text {
+  height: 80px;
+  letter-spacing: 1px;
+}
+
+.A6 {
+  margin-top: 20px;
+}
 
 }
