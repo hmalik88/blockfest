@@ -5,6 +5,7 @@
   justify-content: center;
 }
 
+
 .location-section {
   grid-column: 1;
   grid-row: 2 / 3;
@@ -99,7 +100,7 @@
   margin-right: 20px;
   margin-left: 20px;
   position: relative;
-  left: 92.5px;
+  left: 110px;
   bottom: 60px;
 }
 
@@ -107,7 +108,7 @@
   width: 40px;
   height: 40px;
   position: relative;
-  right: 230px;
+  right: 250px;
   top: 140px;
   margin-left: 140px;
   margin-right: 20px;
@@ -120,7 +121,7 @@
   color: #fff;
   position: relative;
   top: 85px;
-  right: 60px;
+  right: 80px;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 10px;
@@ -133,7 +134,7 @@
   color: #fff;
   position: relative;
   top: 45px;
-  right: 60px;
+  right: 80px;
   text-align: center;
 }
 
@@ -151,7 +152,7 @@
   cursor: pointer;
   position: relative;
   top: 60px;
-  right: 85px;
+  right: 100px;
 }
 
 }

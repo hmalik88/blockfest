@@ -30,9 +30,7 @@ function Landing() {
           Become a sponsor
         </a>
       </div>
-      <div className='skyline-container'>
         <img className='skyline' src={skyline} alt='' />
-      </div>
     </>
     )
 }
