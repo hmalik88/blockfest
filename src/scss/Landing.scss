@@ -176,7 +176,7 @@
 
   .location, .sponsor, {
     top: 750px;
-    font-size: 13px;
+    font-size: 14px;
   }
 
   .pin, .calendar-icon {
@@ -191,20 +191,23 @@
   }
 
   .sponsor {
-    right: 20px;
-    width: 170px;
+    right: 30px;
+    width: 200px;
+    font-size: 14px;
+    padding-left: 0px;
+    justify-content: center;
   }
 
   .dlt-pill {
     width: 230px;
-    font-size: 13px;
-    right: 20px;
+    font-size: 14px;
+    left: 253px;
   }
 
   .apply {
     width: 200px;
     left: 30px;
-    font-size: 13px;
+    font-size: 14px;
     justify-content: center;
     padding-left: 0px;
   }

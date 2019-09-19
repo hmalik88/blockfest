@@ -9,10 +9,10 @@ const SaturdaySchedule = [
   ['9:30 AM', 'Kick-off'],
   ['10 AM', 'Form teams'],
   ['10:30 AM', 'Hackathon begins'],
-  ['12 PM', 'Breakout session # 1'],
-  ['2 PM', 'Breakout session # 2'],
-  ['3 PM', 'Breakout session # 3'],
-  ['4 PM', 'Breakout session # 4'],
+  ['12 PM', 'Breakout sessions / workshops'],
+  ['2 PM', 'Breakout sessions / workshops'],
+  ['3 PM', 'Breakout sessions / workshops'],
+  ['4 PM', 'Breakout sessions / workshops'],
   ['7 PM', 'Doors close for the night']
 ]
 
