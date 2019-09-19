@@ -1,5 +1,5 @@
 .slot {
-  width: 100%;
+  width: calc(100% - 25px);
   height: 60px;
   border: 3px solid #fff;
   display: grid;
@@ -21,6 +21,7 @@
   letter-spacing: 1px;
   display: flex;
   align-items: center;
+  line-height: 28px;
 }
 
 .slot-activity {
@@ -30,6 +31,20 @@
   letter-spacing: 1px;
   display: flex;
   align-items: center;
+  // padding-right: 20px;
+  // padding-left: 20px;
+}
+
+@media (max-width: 570px) {
+
+  .slot-time {
+    font-size: 18px;
+  }
+
+  .slot-activity {
+    font-size: 16px;
+  }
+
 }
 
 

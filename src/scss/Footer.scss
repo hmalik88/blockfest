@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 10%;
 }
 
 .link-container {
@@ -34,4 +35,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-right: 10%;
+  text-align: center;
+  line-height: 24px
+}
+
+@media (max-width: 570px) {
+
+  .footer-logo {
+    width: 100px;
+    height: 100px;
+  }
+
 }

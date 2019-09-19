@@ -21,11 +21,13 @@
 }
 
 .location-pic-container, .location-details-container {
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .location-details-container {
@@ -35,6 +37,8 @@
 .hqPic {
   width: 400px;
   height: 300px;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .microsoft-logo {
@@ -52,7 +56,9 @@
   color: #fff;
   position: relative;
   bottom: 20px;
-
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
 }
 
 .microsoft-headline-text {
@@ -62,6 +68,7 @@
   color: #fff;
   position: relative;
   bottom: 50px;
+  text-align: center;
 }
 
 .directions {
@@ -81,5 +88,66 @@
 }
 
 .directions:hover {
-  background-color: darken(#7988E4, 5%)
+  background-color: darken(#7988E4, 5%);
+}
+
+@media (max-width: 500px) {
+
+  .hqPic {
+  width: 175px;
+  height: 250px;
+  margin-right: 20px;
+  margin-left: 20px;
+  position: relative;
+  left: 15px;
+}
+
+.microsoft-logo {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  right: 60px;
+  top: -20px;
+  margin-left: 140px;
+  margin-right: 20px;
+}
+
+.microsoft-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  bottom: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.microsoft-headline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  position: relative;
+  bottom: 60px;
+  text-align: center;
+}
+
+.directions {
+  width: 150px;
+  height: 35px;
+  border-radius: 32.5px 32.5px 32.5px 32.5px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background-color: #7988E4;
+  color: #fff;
+  font-size: 8px;
+  cursor: pointer;
+  position: relative;
+  bottom: 30px;
+}
+
 }

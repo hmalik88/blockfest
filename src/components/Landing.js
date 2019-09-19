@@ -14,23 +14,22 @@ function Landing() {
       <div className='landing-headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
       <div className='dlt-pill'>
         <img className='calendar-icon' src={calendarIcon} alt='' />
-        <div className='date-text'>
-          December 7-8, 2019
-        </div>
-        <div className='location'>
+        <div className='date-text'>December 7-8, 2019</div>
+      </div>
+      <div className='location'>
           <img className='pin' src={pin} alt='' />
-          <div className='location-text'>
-            New York City, NY
-          </div>
-          <div className='apply'>
-            <div className='apply-text'>
-              Apply to Hack
-            </div>
-            <div className='sponsor'>
-              Become a sponsor
-            </div>
-          </div>
-        </div>
+          <div className='location-text'>New York City, NY</div>
+      </div>
+
+      <div className='apply'>
+        <a href='https://airtable.com/shrpW3DIbUY4UP27j' className='hack-link'>
+          <div className='apply-text'>Apply to Hack</div>
+        </a>
+      </div>
+      <div className='sponsor'>
+        <a href='mailto:info@blockfest.co'>
+          Become a sponsor
+        </a>
       </div>
       <img className='skyline' src={skyline} alt='' />
     </>

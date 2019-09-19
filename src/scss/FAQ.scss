@@ -1,6 +1,6 @@
 .FAQ-svg {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
@@ -14,95 +14,70 @@
   display: flex;
   align-items: center;
   border-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 60px;
   transition: height 400ms;
 }
 
-.Collapsible, .Collapsible6 {
+.Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7   {
   color: #fff;
   font-family: 'Hepta Slab', serif;
   font-weight: 600;
   font-size: 20px;
   width: 80%;
+  border: 3px solid #fff;
+  display: flex;
+  align-items: flex-start;
+  border-radius: 10px;
+  margin-bottom: 50px;
+  flex-flow: column;
+  transition: height 400ms;
+}
+
+.Collapsible6 {
   height: 230px;
-  border: 3px solid #fff;
-  display: flex;
-  align-items: flex-start;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  flex-flow: column;
-  transition: height 400ms;
 }
 
-.Collapsible2, .Collapsible7 {
-  color: #fff;
-  font-family: 'Hepta Slab', serif;
-  font-weight: 600;
-  font-size: 20px;
-  width: 80%;
+.Collapsible2, .Collapsible7, .Collapsible  {
   height: 190px;
-  border: 3px solid #fff;
-  display: flex;
-  align-items: flex-start;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  flex-flow: column;
-  transition: height 400ms;
 }
 
 .Collapsible3, .Collapsible4, .Collapsible5 {
-  color: #fff;
-  font-family: 'Hepta Slab', serif;
-  font-weight: 600;
-  font-size: 20px;
-  width: 80%;
   height: 160px;
-  border: 3px solid #fff;
-  display: flex;
-  align-items: flex-start;
-  border-radius: 10px;
-  margin-bottom: 50px;
-  flex-flow: column;
-  transition: height 400ms;
 }
 
-.Collapsible__contentInner, .Collapsible__contentOuter {
-  height: 155px;
-  width: 100%;
-}
-
-.Collapsible2__contentInner, .Collapsible7__contentInner, .Collapsible2__contentOuter, .Collapsible7__contentOuter {
-  height: 150px;
-  width: 100%;
-}
-
-.Collapsible3__contentInner, .Collapsible5__contentInner, .Collapsible3__contentOuter, .Collapsible5__contentOuter {
-  height: 120px;
-  width: 100%;
-}
-
-.Collapsible4__contentInner, .Collapsible4__contentOuter {
-  height: 100px;
-  width: 100%;
-}
-
-.Collapsible6__contentInner, .Collapsible6__contentOuter {
-  height: 160px;
+.Collapsible__contentInner, .Collapsible__contentOuter, .Collapsible2__contentInner, .Collapsible7__contentInner, .Collapsible2__contentOuter, .Collapsible7__contentOuter, .Collapsible3__contentInner, .Collapsible5__contentInner, .Collapsible3__contentOuter, .Collapsible5__contentOuter, .Collapsible4__contentInner, .Collapsible4__contentOuter, .Collapsible6__contentInner, .Collapsible6__contentOuter {
+  height: 100%;
   width: 100%;
 }
 
 
 .Collapsible__trigger.is-closed, .Collapsible__trigger.is-open, .Collapsible2__trigger.is-closed, .Collapsible2__trigger.is-open, .Collapsible3__trigger.is-open, .Collapsible3__trigger.is-closed, .Collapsible4__trigger.is-open, .Collapsible4__trigger.is-closed, .Collapsible5__trigger.is-open, .Collapsible5__trigger.is-closed, .Collapsible6__trigger.is-closed, .Collapsible6__trigger.is-open, .Collapsible7__trigger.is-closed, .Collapsible7__trigger.is-open {
   width: 100%;
-  position: relative;
-  left: 30px;
-  top: 18px;
   cursor: pointer;
+  height: 60px;
 }
 
-.Q1 div, .Q2 div, .Q3 div, .Q4 div, .Q5 div, .Q6 div, .Q7 div {
+.Q1-text, .Q2-text, .Q3-text, .Q4-text, .Q5-text, .Q6-text, .Q7-text {
+  height: 60px;
+  display: grid;
+  width: 100%;
+  align-self: center;
+  position: sticky;
+  grid-template-columns: 1fr 75px;
+  grid-template-rows: 100%;
+}
+
+.Q1-text div, .Q2-text div, .Q3-text div, .Q4-text div, .Q5-text div, .Q6-text div, .Q7-text div {
   position: relative;
-  left: 30px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+  grid-column: 1 / 2;
+  grid-row: 1;
+  padding-left: 30px;
+  width: calc(100% - 60px);
+  padding-right: 30px;
+  line-height: 20px;
 }
 
 .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
@@ -112,11 +87,10 @@
   line-height: 36px;
   display: flex;
   justify-content: center;
-  width: 1047.2px;
+  width: calc(100% - 60px);
   padding-left: 30px;
   padding-right: 30px;
-  margin-top: 30px;
-  top: 400px;
+  top: 360px;
   height: 100%;
 }
 
@@ -124,8 +98,68 @@
   color: #fff;
   width: 35px;
   height: 35px;
-  position: relative;
-  left: 530px;
+  position: sticky;
   cursor: pointer;
-  top: 50px;
+  align-self: center;
+  right: 30px;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+@media (max-width: 500px) {
+
+.Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+  font-size: 12px;
+}
+
+.Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7   {
+  font-size: 12px;
+}
+
+.A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.addButton1, .addButton2, .addButton3, .addButton4, .addButton5, .addButton6, .addButton7 {
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  position: sticky;
+  cursor: pointer;
+  align-self: center;
+  right: 30px;
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.Q1-text, .Q2-text, .Q3-text, .Q4-text, .Q5-text, .Q6-text, .Q7-text {
+  grid-template-columns: 1fr 65px;
+}
+
+.Collapsible {
+  height: 200px;
+}
+
+.Collapsible2 {
+  height: 160px;
+}
+
+.Collapsible3 {
+  height: 140px;
+}
+
+.Collapsible4, .Collapsible5 {
+  height: 140px;
+}
+
+.Collapsible6 {
+  height: 200px;
+}
+
+.Collapsible7 {
+  height: 180px;
+}
+
+
 }

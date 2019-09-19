@@ -4,6 +4,7 @@
   letter-spacing: 1px;
   margin-bottom: 30px;
   font-size: 60px;
+  text-align: center;
 }
 
 .contact-section div {
@@ -13,6 +14,8 @@
   line-height: 40px;
   align-self: center;
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .contact-section span {
@@ -34,4 +37,27 @@
 
 .twitter:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 570px) {
+
+  .contact-section h1 {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+  font-size: 55px;
+  text-align: center;
+}
+
+.contact-section div {
+  width: 430px;
+  height: 130px;
+  font-size: 18px;
+  line-height: 40px;
+  align-self: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 }

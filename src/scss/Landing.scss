@@ -9,32 +9,34 @@
 .blockText {
   top: 400px;
   height: 78.76px;
-  width: 937.53px;
+  width: 80%;
   position: absolute;
   z-index: 10;
+
 }
 
 .landing-headline {
   color: #fff;
   font-family: 'Hepta Slab', serif;
   font-weight: 400;
-  position: relative;
+  position: absolute;
   letter-spacing: 3px;
   font-size: 16px;
   height: 50px;
   align-self: center;
-  top: 500px;
+  top: 550px;
+  text-align: center;
 }
 
 .dlt-pill {
-  width: 1000px;
+  width: 970px;
   height: 70px;
   border: 1px solid rgb(177, 178, 190);
   border-radius: 50px 50px 50px 50px;
   position: absolute;
   top: 650px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
@@ -42,82 +44,169 @@
   font-size: 18px;
   color: #fff;
   background-color: #171A3E;
+  padding-left: 30px;
+  left: 258px;
 }
 
 .date-text {
   position: relative;
-  left: -15px;
+  margin-left: 15px;
 }
 
 .location-text {
   position: relative;
-  left: -10px;
+  margin-left: 10px;
 }
 
 .apply-text {
   position: relative;
-  left: -20px;
 }
 
 .location {
-  width: 700px;
+  width: 500px;
   height: 70px;
   border: 1px solid rgb(177, 178, 190);
   border-right: 0px;
   border-radius: 50px 50px 50px 50px;
   position: relative;
   display: flex;
-  justify-content: flex-end;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #fff;
+  justify-content: flex-start;
   align-items: center;
   background-color: #171A3E;
+  padding-left: 30px;
+  position: absolute;
+  top: 650px;
+  right: 475px;
 }
 
 .apply {
-  width: 450px;
+  width: 420px;
   height: 70px;
   border: 1px solid rgb(177, 178, 190);
   border-right: 0px;
   border-radius: 50px 50px 50px 50px;
-  position: relative;
+  position: absolute;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
   cursor: pointer;
   background-color: #E62160;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 30px;
+  right: 265px;
+  top: 650px;
+}
+
+.apply:hover {
+  background-color: darken(#E62160, 5%);
 }
 
 .sponsor {
-  width: 250px;
+  width: 220px;
   height: 70px;
   border: 1px solid rgb(177, 178, 190);
   border-right: 0px;
   border-radius: 50px 50px 50px 50px;
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: #EF034F;
   z-index: 5;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #fff;
+  padding-left: 30px;
+  right: 265px;
+  top: 650px;
+  cursor: pointer;
+}
+
+.sponsor:hover {
+  background-color: darken(#EF034F, 5%);
 }
 
 .calendar-icon {
   width: 40px;
   height: 40px;
   position: relative;
-  left: -30px;
 }
 
 .pin {
   width: 40px;
   height: 40px;
   position: relative;
-  left: -15px;
 }
 
 .skyline {
-  position: relative;
+  position: absolute;
   z-index: -100;
   align-self: center;
-  top: 61px;
+  // top: 61px;
+  // object-fit: cover;
+  width: 100%;
+  bottom: 0px;
+}
+
+.apply a, .sponsor a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+@media (max-width: 570px) {
+
+  .landing-headline {
+    font-size: 9px;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+  }
+
+  .location, .sponsor, {
+    top: 750px;
+    font-size: 13px;
+  }
+
+  .pin, .calendar-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .location {
+    left: 30px;
+    width: 220px;
+    padding-left: 30px;
+  }
+
+  .sponsor {
+    right: 20px;
+    width: 170px;
+  }
+
+  .dlt-pill {
+    width: 230px;
+    font-size: 13px;
+    right: 20px;
+  }
+
+  .apply {
+    width: 200px;
+    left: 30px;
+    font-size: 13px;
+    justify-content: center;
+    padding-left: 0px;
+  }
 
 }

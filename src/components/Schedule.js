@@ -47,7 +47,7 @@ class Schedule extends React.Component {
         });
       }, 350)
       sun.classList.add('selected');
-      sunTip.style.display = 'inline-block';
+      sunTip.style.display =  window.innerWidth < 1250 ? 'none' : 'inline-block';
       sun.style.pointerEvents = 'none';
     } else {
       sun.style.pointerEvents = 'auto';
@@ -59,7 +59,7 @@ class Schedule extends React.Component {
         });
       }, 350);
       sat.classList.add('selected')
-      satTip.style.display = 'inline-block';
+      satTip.style.display = window.innerWidth < 1250 ? 'none' : 'inline-block';
       sat.style.pointerEvents = 'none';
     }
   }
