@@ -9,15 +9,13 @@ const SaturdaySchedule = [
   ['9:30 AM', 'Kick-off'],
   ['10 AM', 'Form teams'],
   ['10:30 AM', 'Hackathon begins'],
-  ['12 PM', 'Breakout sessions / workshops'],
-  ['2 PM', 'Breakout sessions / workshops'],
-  ['3 PM', 'Breakout sessions / workshops'],
-  ['4 PM', 'Breakout sessions / workshops'],
+  ['10:30-7 PM', 'Hacking, breakouts & workshops'],
   ['7 PM', 'Doors close for the night']
 ]
 
 const SundaySchedule = [
   ['8:30 AM', 'Breakfast'],
+  ['10:30-5 PM', 'Hacking'],
   ['12:30 PM', 'Practice pitches'],
   ['5 PM', 'Presentations & judging'],
   ['6:30 PM', 'Closing remarks & speeches']
@@ -26,6 +24,10 @@ const SundaySchedule = [
 class Schedule extends React.Component {
 
   state = {isSunday: false};
+
+  componentDidMount(){
+    this.reduceSectionHeight();
+  }
 
   selectDay = e => {
     let sat = document.querySelector('.saturday');
@@ -43,7 +45,7 @@ class Schedule extends React.Component {
       setTimeout(() => {
         this.setState({isSunday: true}, () => {
           slotPortion.className = 'slot-portion enter';
-          this.reduceSectionHeight();
+          // this.reduceSectionHeight();
         });
       }, 350)
       sun.classList.add('selected');
@@ -55,7 +57,7 @@ class Schedule extends React.Component {
       setTimeout(() => {
         this.setState({isSunday: false}, () => {
           slotPortion.className = 'slot-portion enter';
-          this.increaseSectionHeight();
+          // this.increaseSectionHeight();
         });
       }, 350);
       sat.classList.add('selected')
