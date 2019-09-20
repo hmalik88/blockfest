@@ -19,10 +19,12 @@ function Landing() {
             <img className='pin-web' src={pin} alt='' />
             <div className='location-text-web'>New York City, NY</div>
               <div className='apply-web'>
-                <div className='apply-text-web'>Apply to Hack</div>
+                <div className='apply-text-web'>
+                  <a href='https://airtable.com/shrpW3DIbUY4UP27j'>Apply to Hack</a>
+                </div>
                 <div className='sponsor-web'>
-                  Become a sponsor
-              </div>
+                  <a href='mailto:info@blockfest.co'>Become a sponsor</a>
+                </div>
             </div>
           </div>
       </div>
