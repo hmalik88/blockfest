@@ -28,6 +28,24 @@
   text-align: center;
 }
 
+.dlt-pill-web {
+  width: 1000px;
+  height: 70px;
+  border: 1px solid rgb(177, 178, 190);
+  border-radius: 50px 50px 50px 50px;
+  position: absolute;
+  top: 650px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #171A3E;
+}
+
 .dlt-pill {
   width: 970px;
   height: 70px;
@@ -46,20 +64,52 @@
   background-color: #171A3E;
   padding-left: 30px;
   left: 258px;
+  display: none;
+}
+
+.date-text-web {
+  position: relative;
+  left: -15px;
 }
 
 .date-text {
   position: relative;
   margin-left: 15px;
+  display: none;
+}
+
+.location-text-web {
+  position: relative;
+  left: -10px;
 }
 
 .location-text {
   position: relative;
   margin-left: 10px;
+  display: none;
+}
+
+.apply-text-web {
+  position: relative;
+  left: -20px;
 }
 
 .apply-text {
   position: relative;
+  display: none;
+}
+
+.location-web {
+  width: 700px;
+  height: 70px;
+  border: 1px solid rgb(177, 178, 190);
+  border-right: 0px;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #171A3E;
 }
 
 .location {
@@ -82,6 +132,21 @@
   position: absolute;
   top: 650px;
   right: 475px;
+  display: none;
+}
+
+.apply-web {
+  width: 450px;
+  height: 70px;
+  border: 1px solid rgb(177, 178, 190);
+  border-right: 0px;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  background-color: #E62160;
 }
 
 .apply {
@@ -104,10 +169,29 @@
   padding-left: 30px;
   right: 265px;
   top: 650px;
+  display: none;
 }
+
+// .apply-web:hover {
+//   background-color: darken(#E62160, 5%);
+// }
 
 .apply:hover {
   background-color: darken(#E62160, 5%);
+}
+
+.sponsor-web {
+  width: 250px;
+  height: 70px;
+  border: 1px solid rgb(177, 178, 190);
+  border-right: 0px;
+  border-radius: 50px 50px 50px 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #EF034F;
+  z-index: 5;
 }
 
 .sponsor {
@@ -131,22 +215,43 @@
   right: 265px;
   top: 650px;
   cursor: pointer;
+  display: none;
 }
+
+// .sponsor-web:hover {
+//   background-color: darken(#EF034F, 5%);
+// }
 
 .sponsor:hover {
   background-color: darken(#EF034F, 5%);
+}
+
+.calendar-icon-web {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -30px;
 }
 
 .calendar-icon {
   width: 40px;
   height: 40px;
   position: relative;
+  display: none;
+}
+
+.pin-web {
+  width: 40px;
+  height: 40px;
+  position: relative;
+  left: -15px;
 }
 
 .pin {
   width: 40px;
   height: 40px;
   position: relative;
+  display: none;
 }
 
 .skyline {
@@ -162,6 +267,64 @@
 .apply a, .sponsor a {
   text-decoration: none;
   color: #fff;
+}
+
+@media (max-width: 1045px) {
+  .dlt-pill-web, .location-web, .sponsor-web, .apply-web, .pin-web, .calendar-icon-web, .date-text-web, .location-text-web, .apply-text-web {
+    display: none;
+  }
+
+  // .dlt-pill, .location, .sponsor, .apply, .pin, .calendar-icon, .date-text, .location-text, .apply-text {
+  //   display: flex;
+  // }
+
+  //   .location, .sponsor, {
+  //   top: 750px;
+  //   font-size: 14px;
+  // }
+
+  // .pin, .calendar-icon {
+  //   width: 30px;
+  //   height: 30px;
+  // }
+
+  // .location {
+  //   left: 130px;
+  //   height: 55px;
+  //   width: 230px;
+  //   padding-left: 15px;
+  //   font-size: 16px;
+  //   border: 1px solid rgb(177, 178, 190);
+  // }
+
+  // .sponsor {
+  //   left: 577.5px;
+  //   height: 55px;
+  //   width: 300px;
+  //   font-size: 16px;
+  //   padding-left: 0px;
+  //   justify-content: center;
+  //   border: 1px solid rgb(177, 178, 190);
+  // }
+
+  // .dlt-pill {
+  //   width: 250px;
+  //   font-size: 16px;
+  //   left: 600px;
+  //   height: 55px;
+  // }
+
+  // .apply {
+  //   width: 300px;
+  //   height: 55px;
+  //   left: 130px;
+  //   font-size: 16px;
+  //   justify-content: center;
+  //   padding-left: 0px;
+  //   border: 1px solid rgb(177, 178, 190);
+  // }
+
+
 }
 
 
@@ -189,6 +352,7 @@
     height: 55px;
     width: 180px;
     padding-left: 15px;
+    font-size: 14px;
     border: 1px solid rgb(177, 178, 190);
   }
 

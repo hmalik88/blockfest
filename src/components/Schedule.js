@@ -45,7 +45,7 @@ class Schedule extends React.Component {
       setTimeout(() => {
         this.setState({isSunday: true}, () => {
           slotPortion.className = 'slot-portion enter';
-          // this.reduceSectionHeight();
+          this.reduceSectionHeight();
         });
       }, 350)
       sun.classList.add('selected');
@@ -57,7 +57,7 @@ class Schedule extends React.Component {
       setTimeout(() => {
         this.setState({isSunday: false}, () => {
           slotPortion.className = 'slot-portion enter';
-          // this.increaseSectionHeight();
+          this.increaseSectionHeight();
         });
       }, 350);
       sat.classList.add('selected')

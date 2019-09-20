@@ -12,6 +12,20 @@ function Landing() {
       <img className='blockLogo' src={blockFestLogo} alt='' />
       <img className='blockText' src={blockFestText} alt='' />
       <div className='landing-headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
+      <div className='dlt-pill-web'>
+          <img className='calendar-icon-web' src={calendarIcon} alt='' />
+          <div className='date-text-web'>December 7-8, 2019</div>
+          <div className='location-web'>
+            <img className='pin-web' src={pin} alt='' />
+            <div className='location-text-web'>New York City, NY</div>
+              <div className='apply-web'>
+                <div className='apply-text-web'>Apply to Hack</div>
+                <div className='sponsor-web'>
+                  Become a sponsor
+              </div>
+            </div>
+          </div>
+      </div>
       <div className='dlt-pill'>
         <img className='calendar-icon' src={calendarIcon} alt='' />
         <div className='date-text'>December 7-8, 2019</div>
@@ -30,7 +44,7 @@ function Landing() {
           Become a sponsor
         </a>
       </div>
-        <img className='skyline' src={skyline} alt='' />
+      <img className='skyline' src={skyline} alt='' />
     </>
     )
 }
