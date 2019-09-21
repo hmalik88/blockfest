@@ -38,12 +38,12 @@ function Landing() {
       </div>
       <div className="mobile">
         <div className='line-1'>
-          <a target="none" href='https://airtable.com/shrpW3DIbUY4UP27j'>
+          <a target="none" href='https://airtable.com/shrpW3DIbUY4UP27j' className='mobile-hack-link'>
             <div className='apply'>
               <div className='apply-text'>Apply to Hack</div>
             </div>
           </a>
-          <a target='none' href='https://airtable.com/shrEZjdFlZAPWUM5a'>
+          <a target='none' href='https://airtable.com/shrEZjdFlZAPWUM5a' className='mobile-sponsor-link'>
             <div className='sponsor'>
               Become a sponsor
             </div>
