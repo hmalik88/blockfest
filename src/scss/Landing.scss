@@ -146,7 +146,7 @@
   justify-content: flex-end;
   align-items: center;
   cursor: pointer;
-  background-color: #E62160;
+  background-color: #7988E4;
 }
 
 .apply {
@@ -183,6 +183,12 @@
 
 .apply:hover {
   background-color: darken(#E62160, 5%);
+}
+
+.apply-text {
+  position: relative;
+  display: flex;
+  padding-left:-5px;
 }
 
 .sponsor-web {
@@ -278,114 +284,86 @@
   .dlt-pill-web, .location-web, .sponsor-web, .apply-web, .pin-web, .calendar-icon-web, .date-text-web, .location-text-web, .apply-text-web {
     display: none;
   }
-
-  // .dlt-pill, .location, .sponsor, .apply, .pin, .calendar-icon, .date-text, .location-text, .apply-text {
-  //   display: flex;
-  // }
-
-  //   .location, .sponsor, {
-  //   top: 750px;
-  //   font-size: 14px;
-  // }
-
-  // .pin, .calendar-icon {
-  //   width: 30px;
-  //   height: 30px;
-  // }
-
-  // .location {
-  //   left: 130px;
-  //   height: 55px;
-  //   width: 230px;
-  //   padding-left: 15px;
-  //   font-size: 16px;
-  //   border: 1px solid rgb(177, 178, 190);
-  // }
-
-  // .sponsor {
-  //   left: 577.5px;
-  //   height: 55px;
-  //   width: 300px;
-  //   font-size: 16px;
-  //   padding-left: 0px;
-  //   justify-content: center;
-  //   border: 1px solid rgb(177, 178, 190);
-  // }
-
-  // .dlt-pill {
-  //   width: 250px;
-  //   font-size: 16px;
-  //   left: 600px;
-  //   height: 55px;
-  // }
-
-  // .apply {
-  //   width: 300px;
-  //   height: 55px;
-  //   left: 130px;
-  //   font-size: 16px;
-  //   justify-content: center;
-  //   padding-left: 0px;
-  //   border: 1px solid rgb(177, 178, 190);
-  // }
-
-
 }
 
-
-
 @media (max-width: 570px) {
-
   .landing-headline {
-    font-size: 9px;
+    font-size: 16px;
     font-weight: 500;
     letter-spacing: 1.5px;
   }
 
-  .location, .sponsor, {
+  .location, 
+  .sponsor {
+    display: flex;
     top: 750px;
     font-size: 14px;
   }
 
   .pin, .calendar-icon {
+    display: flex;
     width: 30px;
     height: 30px;
   }
 
   .location {
+    display: flex;
     left: 50px;
     height: 55px;
     width: 180px;
-    padding-left: 15px;
     font-size: 14px;
     border: 1px solid rgb(177, 178, 190);
   }
 
+  .location-text {
+    display: flex;
+  }
+  
   .sponsor {
-    left: 297.5px;
+    display: flex;
+    left: 280px;
     height: 55px;
-    width: 190px;
+    width: 200px;
     font-size: 14px;
-    padding-left: 0px;
     justify-content: center;
     border: 1px solid rgb(177, 178, 190);
+    padding: 0px 0px 0px 10px;
   }
 
   .dlt-pill {
+    display: flex;
     width: 180px;
-    font-size: 14px;
     left: 280px;
+    font-size: 14px;
     height: 55px;
   }
 
+  .date-text {
+    position: relative;
+    margin-left: 15px;
+    display: flex;
+}
+
   .apply {
-    width: 175px;
+    display: flex;
+    width: 200px;
     height: 55px;
     left: 50px;
     font-size: 14px;
     justify-content: center;
-    padding-left: 0px;
+    background-color: #7988E4;
+    padding: 0px 0px 0px 5px;
     border: 1px solid rgb(177, 178, 190);
+  }
+
+  .apply a {
+    text-decoration: none;
+    display: flex;
+    color: #fff;
+  }
+  
+  .apply:hover {
+    background-color: darken(#7988E4, 5%);
   }
 
 }

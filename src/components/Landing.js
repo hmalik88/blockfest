@@ -18,33 +18,35 @@ function Landing() {
           <div className='location-web'>
             <img className='pin-web' src={pin} alt='' />
             <div className='location-text-web'>New York City, NY</div>
-              <div className='apply-web'>
-                <div className='apply-text-web'>
-                  <a href='https://airtable.com/shrpW3DIbUY4UP27j'>Apply to Hack</a>
-                </div>
-                <div className='sponsor-web'>
-                  <a href='mailto:info@blockfest.co'>Become a sponsor</a>
-                </div>
+            <div className='apply-web'>
+              <div className='apply-text-web'>
+                <a target="none" href='https://airtable.com/shrpW3DIbUY4UP27j'>Apply to Hack</a>
+              </div>
+              <div className='sponsor-web'>
+                <a href='mailto:info@blockfest.co'>Become a sponsor</a>
+              </div>
             </div>
           </div>
       </div>
-      <div className='dlt-pill'>
-        <img className='calendar-icon' src={calendarIcon} alt='' />
-        <div className='date-text'>December 7-8, 2019</div>
-      </div>
-      <div className='location'>
-          <img className='pin' src={pin} alt='' />
-          <div className='location-text'>New York City, NY</div>
-      </div>
-      <div className='apply'>
-        <a href='https://airtable.com/shrpW3DIbUY4UP27j' className='hack-link'>
-          <div className='apply-text'>Apply to Hack</div>
-        </a>
-      </div>
-      <div className='sponsor'>
-        <a href='mailto:info@blockfest.co'>
-          Become a sponsor
-        </a>
+      <div className="mobile">
+        <div className='dlt-pill'>
+          <img className='calendar-icon' src={calendarIcon} alt='' />
+          <div className='date-text'>December 7-8, 2019</div>
+        </div>
+        <div className='location'>
+            <img className='pin' src={pin} alt='' />
+            <div className='location-text'>New York City, NY</div>
+        </div>
+        <div className='apply'>
+          <a target="none" href='https://airtable.com/shrpW3DIbUY4UP27j' className='hack-link'>
+            <div className='apply-text'>Apply to Hack</div>
+          </a>
+        </div>
+        <div className='sponsor'>
+          <a href='mailto:info@blockfest.co'>
+            Become a sponsor
+          </a>
+        </div>
       </div>
       <img className='skyline' src={skyline} alt='' />
     </>
