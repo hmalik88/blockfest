@@ -118,91 +118,302 @@
   grid-column: 2;
 }
 
+@media (max-width: 1445px) {
+
+  .Collapsible {
+    height: 230px;
+  }
+
+}
+
+@media (max-width: 1274px) {
+
+  .Collapsible7 {
+    height: 220px;
+  }
+
+}
+
+@media (max-width: 1225px) {
+
+  .Collapsible7 {
+    height: 190px;
+  }
+
+  .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 1140px) {
+
+  .Collapsible6 {
+    height: 260px;
+  }
+
+  .Collapsible7 {
+    height: 220px;
+  }
+
+}
+
+@media (max-width: 1097px) {
+
+  .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 1033px) {
+
+  .Collapsible3 {
+    height: 180px;
+  }
+
+}
+
+@media (max-width: 988px) {
+
+  .Collapsible4 {
+    height: 180px;
+  }
+
+}
+
+@media (max-width: 949px) {
+
+  .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+    font-size: 14px;
+  }
+
+  .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+    font-size: 18px;
+  }
+
+  .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7 {
+    font-size: 18px;
+  }
+
+}
+
+@media (max-width: 891px) {
+
+  .Collapsible {
+    height: 250px;
+  }
+
+  .Collapsible2 {
+    height: 210px;
+  }
+
+}
+
+@media (max-width: 820px) {
+
+  .Collapsible5 {
+    height: 180px;
+  }
+
+}
+
+@media (max-width: 775px) {
+
+  .Collapsible6 {
+    height: 290px;
+  }
+
+}
+
+@media (max-width: 758px) {
+
+  .Collapsible7 {
+    height: 240px;
+  }
+
+}
+
+@media (max-width: 742px) {
+
+  .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+    font-size: 12.5px;
+  }
+
+ .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+    font-size: 16px;
+  }
+
+  .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7 {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  .Collapsible {
+    height: 280px;
+  }
+
+}
+
+@media (max-width: 639px) {
+
+   .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+    font-size: 14px;
+  }
+
+  .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7 {
+    font-size: 14px;
+  }
+
+  .Collapsible2 {
+    height: 240px;
+  }
+
+  .Collapsible6 {
+    height: 320px;
+  }
+
+}
+
+@media (max-width: 625px) {
+
+  .Collapsible6 {
+    height: 330px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+    font-size: 13px;
+  }
+
+  .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7 {
+    font-size: 13px;
+  }
+
+}
 
 @media (max-width: 570px) {
 
-.Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
-  font-size: 14px;
+  .Collapsible.Q1, .Collapsible2.Q2, .Collapsible3.Q3, .Collapsible4.Q4, .Collapsible5.Q5, .Collapsible6.Q6, .Collapsible7.Q7 {
+    font-size: 14px;
+  }
+
+  .Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7   {
+    font-size: 14px;
+  }
+
+  .A1, .A2, .A3, .A4, .A5, .A6, .A7 {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  .addButton1, .addButton2, .addButton3, .addButton4, .addButton5, .addButton6, .addButton7 {
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    position: sticky;
+    cursor: pointer;
+    align-self: center;
+    right: 30px;
+    grid-row: 1;
+    grid-column: 2;
+  }
+
+  .Q1-text, .Q2-text, .Q3-text, .Q4-text, .Q5-text, .Q6-text, .Q7-text {
+    grid-template-columns: 1fr 65px;
+    letter-spacing: 1px;
+  }
+
+  .Collapsible {
+    height: 220px;
+  }
+
+  .Collapsible2 {
+    height: 200px;
+  }
+
+  .Collapsible3 {
+    height: 170px;
+  }
+
+  .Collapsible4 {
+    height: 150px;
+  }
+
+  .Collapsible5 {
+    height: 140px;
+  }
+
+  .Collapsible6 {
+    height: 270px;
+  }
+
+  .Collapsible7 {
+    height: 200px;
+  }
+
+  .Collapsible6.Q6 {
+    height: 90px;
+  }
+
+  .Q6-text {
+    height: 90px;
+    letter-spacing: 1px;
+  }
+
+  .Collapsible4.Q4 {
+    height: 70px;
+  }
+
+
+  .Q4-text {
+    height: 70px;
+  }
+
+  .Collapsible4__trigger.is-closed, .Collapsible4__trigger.is-open {
+    height: 65px;
+  }
+
+  .Collapsible5__trigger.is-closed, .Collapsible5__trigger.is-open {
+    height: 55px;
+  }
+
+  .Collapsible6__trigger.is-closed, .Collapsible6__trigger.is-open {
+    height: 90px;
+  }
+
+  .Collapsible7__trigger.is-closed, .Collapsible7__trigger.is-open {
+    height: 60px;
+  }
+
 }
 
-.Collapsible, .Collapsible2, .Collapsible3, .Collapsible4, .Collapsible5, .Collapsible6, .Collapsible7   {
-  font-size: 14px;
+@media (max-width: 556px) {
+
+  .Collapsible7 {
+    height: 220px;
+  }
+
 }
 
-.A1, .A2, .A3, .A4, .A5, .A6, .A7 {
-  font-size: 12px;
-  line-height: 20px;
+@media (max-width: 550px) {
+
+  .Collapsible4 {
+    height: 170px;
+  }
+
 }
 
-.addButton1, .addButton2, .addButton3, .addButton4, .addButton5, .addButton6, .addButton7 {
-  color: #fff;
-  width: 25px;
-  height: 25px;
-  position: sticky;
-  cursor: pointer;
-  align-self: center;
-  right: 30px;
-  grid-row: 1;
-  grid-column: 2;
-}
+@media (max-width: 545px) {
 
-.Q1-text, .Q2-text, .Q3-text, .Q4-text, .Q5-text, .Q6-text, .Q7-text {
-  grid-template-columns: 1fr 65px;
-  letter-spacing: 1px;
-}
-
-.Collapsible {
-  height: 220px;
-}
-
-.Collapsible2 {
-  height: 180px;
-}
-
-.Collapsible3 {
-  height: 160px;
-}
-
-.Collapsible4 {
-  height: 160px;
-}
-
-.Collapsible5 {
-  height: 140px;
-}
-
-.Collapsible6 {
-  height: 250px;
-}
-
-.Collapsible7 {
-  height: 190px;
-}
-
-.Collapsible6.Q6 {
-  height: 90px;
-}
-
-.Q6-text {
-  height: 90px;
-  letter-spacing: 1px;
-}
-
-.Collapsible6__trigger.is-closed, .Collapsible6__trigger.is-open {
-  height: 70px;
-}
-
-.Collapsible7__trigger.is-closed, .Collapsible7__trigger.is-open {
-  height: 60px;
-}
-
-// .Q7-text {
-//   height: 70px;
-//   letter-spacing: 1px;
-// }
-
-.A6 {
-  margin-top: 20px;
-}
+  .Collapsible {
+    height: 240px;
+  }
 
 }

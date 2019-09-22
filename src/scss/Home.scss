@@ -176,164 +176,212 @@ body {
 
 @media (max-width: 1370px) {
 
-  .home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 600px 1250px 700px 1350px 400px 150px;
-}
-
-
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 600px 1155px 700px 1350px 400px 150px;
-}
-
-}
-
-@media (max-width: 875px) {
-  .schedule-section {
-  grid-template-rows: 240px 325px 790px;
+    .home-root {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1250px 700px 1350px 400px 150px;
   }
 
-  .schedule-section-short {
-  grid-template-rows: 240px 325px auto;
+
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1155px 700px 1350px 400px 150px;
   }
 
+}
+
+@media (max-width: 1140px) {
+
+  //FOR FAQ INCREASE
+
   .home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 600px 1330px 700px 1350px 400px 150px;
-}
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1250px 700px 1370px 400px 150px;
+  }
 
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 600px 1235px 700px 1350px 400px 150px;
-}
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1155px 700px 1370px 400px 150px;
+  }
+
 }
 
 @media (max-width: 920px) {
 
-.home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 650px 1330px 700px 1350px 400px 150px;
+  .home-root {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 650px 1330px 700px 1390px 400px 150px;
+  }
+
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 650px 1235px 700px 1390px 400px 150px;
+  }
+
 }
 
+@media (max-width: 875px) {
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 650px 1235px 700px 1350px 400px 150px;
-}
+  .schedule-section {
+    grid-template-rows: 240px 325px 790px;
+  }
+
+  .schedule-section-short {
+    grid-template-rows: 240px 325px auto;
+  }
+
+  .home-root {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1330px 700px 1390px 400px 150px;
+  }
+
+
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 600px 1235px 700px 1390px 400px 150px;
+  }
 
 }
 
 @media (max-width: 795px) {
 
   .home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 700px 1330px 700px 1350px 400px 150px;
-}
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 700px 1330px 700px 1390px 400px 150px;
+  }
 
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 700px 1235px 700px 1350px 400px 150px;
-}
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 700px 1235px 700px 1390px 400px 150px;
+  }
 
 }
 
 @media (max-width: 716px) {
 
   .home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 750px 1330px 700px 1350px 400px 150px;
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 750px 1330px 700px 1390px 400px 150px;
+  }
+
+
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 750px 1235px 700px 1390px 400px 150px;
+  }
+
+}
+
+@media (max-width: 670px) {
+
+  .home-root {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 750px 1330px 700px 1410px 400px 150px;
+  }
+
+
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 750px 1235px 700px 1410px 400px 150px;
+  }
+
 }
 
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 750px 1235px 700px 1350px 400px 150px;
-}
 
-}
 
 @media (max-width: 626px) {
 
   .home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 800px 1330px 700px 1350px 400px 150px;
-}
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 800px 1330px 700px 1430px 400px 150px;
+  }
 
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 800px 1235px 700px 1350px 400px 150px;
-}
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 800px 1235px 700px 1430px 400px 150px;
+  }
 
 }
 
 
 @media (max-width: 570px) {
 
-.home-root {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 850px 1330px 700px 1360px 400px 150px;
-}
+  .home-root {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 850px 1330px 700px 1390px 400px 150px;
+  }
 
 
-.home-root-short {
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: auto;
-  grid-template-rows: 900px 850px 1235px 700px 1360px 400px 150px;
-}
+  .home-root-short {
+    display: grid;
+    width: 100%;
+    height: auto;
+    grid-template-columns: auto;
+    grid-template-rows: 900px 850px 1235px 700px 1390px 400px 150px;
+  }
 
-.footer {
-    font-size: 16px;
-}
+  .footer {
+      font-size: 16px;
+  }
 
-.landing-section {
-  padding-left: 5%;
-  padding-right: 5%;
-}
+  .landing-section {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 
   .schedule-section {
   grid-template-rows: 240px 325px auto;
@@ -343,8 +391,9 @@ body {
   grid-template-rows: 240px 325px auto;
   }
 
-
 }
+
+
 
 
 
