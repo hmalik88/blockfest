@@ -37,16 +37,14 @@
 .hqPic {
   width: 400px;
   height: 300px;
-  padding-right: 20px;
-  padding-left: 20px;
 }
 
 .microsoft-logo {
   width: 64.5px;
   height: 64.5px;
   position: relative;
-  right: 250px;
-  top: 72.5px;
+  margin-right: 20px;
+  // right: 250px;
 }
 
 .microsoft-headline {
@@ -55,10 +53,36 @@
   font-size: 40px;
   color: #fff;
   position: relative;
-  bottom: 20px;
+  // bottom: 20px;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 10px;
+  display: inline-block;
+
+}
+
+.microsoft-details-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.microsoft-logo-container {
+  width: 100%;
+  display: flex;
+  height: 50%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.logo-inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
 }
 
 .microsoft-headline-text {
@@ -67,8 +91,9 @@
   font-size: 20px;
   color: #fff;
   position: relative;
-  bottom: 50px;
+  // bottom: 50px;
   text-align: center;
+
 }
 
 .directions {
@@ -84,61 +109,420 @@
   font-size: 20px;
   cursor: pointer;
   position: relative;
-  bottom: 20px;
 }
 
 .directions:hover {
   background-color: darken(#7988E4, 5%);
 }
 
-@media (max-width: 570px) {
+@media (max-width: 1400px) {
+  .microsoft-headline {
+    font-size: 36px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 19px;
+  }
+
+  .directions {
+    height: 65px;
+    font-size: 19px;
+  }
+}
+
+@media (max-width: 1285px) {
+  .microsoft-headline {
+    font-size: 34px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 19px;
+  }
+
+  .directions {
+    height: 60px;
+    width: 340px;
+    font-size: 18px;
+  }
 
   .hqPic {
-  width: 175px;
-  height: 175px;
-  margin-right: 20px;
-  margin-left: 20px;
+  width: 375px;
+  height: 275px;
+  // padding-right: 20px;
+  // padding-left: 20px;
+}
+
+
+}
+
+@media (max-width: 1230px) {
+  .microsoft-headline {
+    font-size: 32px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 18px;
+  }
+
+  .directions {
+    height: 60px;
+    width: 340px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1173px) {
+  .microsoft-headline {
+    font-size: 31px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 18px;
+  }
+
+  .directions {
+    height: 55px;
+    width: 335px;
+    font-size: 17px;
+  }
+
+  .hqPic {
+    width: 325px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1145px) {
+  .microsoft-headline {
+    font-size: 28px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 17px;
+  }
+
+  .directions {
+    height: 55px;
+    width: 330px;
+    font-size: 17px;
+  }
+
+  .hqPic {
+    width: 325px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .microsoft-headline {
+    font-size: 27px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 16px;
+  }
+
+  .directions {
+    height: 50px;
+    width: 320px;
+    font-size: 16px;
+  }
+
+  .hqPic {
+    width: 325px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .microsoft-headline {
+    font-size: 25px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 15px;
+  }
+
+  .directions {
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .hqPic {
+    width: 325px;
+    height: 250px;
+  }
+
+  .location-details-container {
+    padding-left: 0%;
+    width: 45%;
+  }
+
+
+}
+
+@media (max-width: 930px) {
+  .microsoft-headline {
+    font-size: 25px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 15px;
+  }
+
+  .directions {
+    height: 50px;
+    width: 300px;
+    font-size: 16px;
+  }
+
+  .hqPic {
+    width: 275px;
+    height: 250px;
+  }
+
+  .location-details-container {
+    padding-left: 0%;
+    width: 45%;
+  }
+}
+
+@media (max-width: 865px) {
+  .microsoft-headline {
+    font-size: 23px;
+  }
+
+  .microsoft-headline-text {
+    font-size: 14px;
+  }
+
+  .directions {
+    height: 45px;
+    width: 250px;
+    font-size: 13px;
+  }
+
+  .hqPic {
+    width: 275px;
+    height: 250px;
+  }
+
+  .location-pic-container {
+    padding-right: 0%;
+    width: 45%;
+  }
+
+  .microsoft-logo {
+    width: 54.5px;
+    height: 54.5px;
+    position: relative;
+    margin-right: 10px;
+  }
+}
+
+
+
+// @media (max-width: 975px) {
+
+//   .hqPic {
+//   width: 325px;
+//   height: 200px;
+//   position: relative;
+//   padding: 0px;
+// }
+
+// .location-container {
+//   flex-flow: column;
+// }
+
+// .location-pic-container,  {
+//   height:60%;
+//   width: 90%;
+//   justify-content: center;
+//   align-items: flex-end;
+// }
+
+// .location-details-container {
+//   height: 40%;
+//   width: 90%;
+//   justify-content: center;
+// }
+
+// .microsoft-details-container {
+//   width: 100%;
+//   height: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start;
+//   flex-flow: column;
+// }
+
+// .microsoft-logo {
+//   width: 40px;
+//   height: 40px;
+//   right: 0px;
+//   position: relative;
+//   top: 0px;
+//   align-self: flex-start;
+//   margin-right: 20px;
+// }
+
+// .microsoft-headline {
+//   font-family: 'Montserrat', sans-serif;
+//   font-weight: 500;
+//   font-size: 28px;
+//   color: #fff;
+//   position: relative;
+//   text-align: center;
+//   padding: 0px;
+//   margin: 0px;
+//   display: inline-block;
+//   bottom: 0px;
+// }
+
+// .microsoft-headline-text {
+//   font-family: 'Montserrat', sans-serif;
+//   font-weight: 300;
+//   font-size: 14px;
+//   color: #fff;
+//   position: relative;
+//   top: 10px;
+//   right: 0px;
+//   margin: 0px;
+//   text-align: center;
+//   display: inline-block;
+// }
+
+// .microsoft-logo-container {
+//   width: 100%;
+//   display: flex;
+//   height: 60%;
+//   justify-content: center;
+//   align-items: center;
+//   flex-flow: column;
+// }
+
+// .logo-inner-container {
+//   width: 100%;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   height: auto;
+// }
+
+// .directions {
+//   width: 175px;
+//   height: 35px;
+//   border-radius: 32.5px 32.5px 32.5px 32.5px;
+//   border: 0px;
+//   font-family: 'Montserrat', sans-serif;
+//   font-weight: 600;
+//   letter-spacing: 0.5px;
+//   background-color: #7988E4;
+//   color: #fff;
+//   font-size: 10px;
+//   cursor: pointer;
+//   position: relative;
+//   bottom: 0px
+// }
+
+// }
+
+@media (max-width: 810px) {
+
+  .hqPic {
+  width: 300px;
+  height: 200px;
   position: relative;
-  left: 110px;
-  bottom: 60px;
+  padding: 0px;
+}
+
+.location-container {
+  flex-flow: column;
+}
+
+.location-pic-container,  {
+  height:60%;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 5%;
+}
+
+.location-details-container {
+  height: 40%;
+  width: 90%;
+  justify-content: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.microsoft-details-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column;
 }
 
 .microsoft-logo {
   width: 40px;
   height: 40px;
+  right: 0px;
   position: relative;
-  right: 250px;
-  top: 140px;
-  margin-left: 140px;
+  top: 0px;
+  align-self: flex-start;
   margin-right: 20px;
 }
 
 .microsoft-headline {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 28px;
   color: #fff;
   position: relative;
-  top: 85px;
-  right: 80px;
   text-align: center;
-  padding-bottom: 30px;
-  padding-top: 10px;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  bottom: 0px;
 }
 
 .microsoft-headline-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 9px;
+  font-size: 14px;
   color: #fff;
   position: relative;
-  top: 45px;
-  right: 80px;
+  top: 10px;
+  right: 0px;
+  margin: 0px;
   text-align: center;
+  display: inline-block;
+}
+
+.microsoft-logo-container {
+  width: 100%;
+  display: flex;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.logo-inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+
 }
 
 .directions {
-  width: 150px;
+  width: 200px;
   height: 35px;
   border-radius: 32.5px 32.5px 32.5px 32.5px;
   border: 0px;
@@ -147,11 +531,117 @@
   letter-spacing: 0.5px;
   background-color: #7988E4;
   color: #fff;
-  font-size: 8px;
+  font-size: 12px;
   cursor: pointer;
   position: relative;
-  top: 60px;
-  right: 100px;
+  bottom: 0px;
+  top: 10px;
+}
+
+}
+
+@media (max-width: 570px) {
+
+  .hqPic {
+  width: 275px;
+  height: 200px;
+  position: relative;
+  padding: 0px;
+}
+
+.location-container {
+  flex-flow: column;
+}
+
+.location-pic-container,  {
+  height:60%;
+  width: 90%;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.location-details-container {
+  height: 40%;
+  width: 90%;
+  justify-content: center;
+}
+
+.microsoft-details-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-flow: column;
+}
+
+.microsoft-logo {
+  width: 40px;
+  height: 40px;
+  right: 0px;
+  position: relative;
+  top: 0px;
+  align-self: flex-start;
+  margin-right: 20px;
+}
+
+.microsoft-headline {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 28px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  display: inline-block;
+  bottom: 0px;
+}
+
+.microsoft-headline-text {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  color: #fff;
+  position: relative;
+  top: 10px;
+  right: 0px;
+  margin: 0px;
+  text-align: center;
+  display: inline-block;
+}
+
+.microsoft-logo-container {
+  width: 100%;
+  display: flex;
+  height: 60%;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+
+.logo-inner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.directions {
+  width: 175px;
+  height: 35px;
+  border-radius: 32.5px 32.5px 32.5px 32.5px;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  background-color: #7988E4;
+  color: #fff;
+  font-size: 10px;
+  cursor: pointer;
+  position: relative;
+  bottom: 0px
 }
 
 }
