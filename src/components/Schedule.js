@@ -29,12 +29,27 @@ class Schedule extends React.Component {
     window.addEventListener('resize', () => {
       let satTip = document.querySelector('.button-tip1');
       let sunTip = document.querySelector('.button-tip2');
+      if (!satTip || !sunTip) return;
       if (window.innerWidth < 875) {
           satTip.style.display = 'none';
           sunTip.style.display = 'none';
       } else {
         this.state.isSunday ? sunTip.style.display = 'inline-block' : satTip.style.display = 'inline-block';
       }
+    })
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('resize', () => {
+      let satTip = document.querySelector('.button-tip1');
+      let sunTip = document.querySelector('.button-tip2');
+      if (!satTip || !sunTip) return;
+      if (window.innerWidth < 875) {
+          satTip.style.display = 'none';
+          sunTip.style.display = 'none';
+      } else {
+        this.state.isSunday ? sunTip.style.display = 'inline-block' : satTip.style.display = 'inline-block';
+      };
     })
   }
 
