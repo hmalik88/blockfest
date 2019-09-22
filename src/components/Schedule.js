@@ -23,10 +23,19 @@ const SundaySchedule = [
 
 class Schedule extends React.Component {
 
-  state = {isSunday: false};
+  state = {isSunday: false, satTip: true, sunTip: false};
 
   componentDidMount(){
-    // this.reduceSectionHeight();
+    window.addEventListener('resize', () => {
+      let satTip = document.querySelector('.button-tip1');
+      let sunTip = document.querySelector('.button-tip2');
+      if (window.innerWidth < 875) {
+          satTip.style.display = 'none';
+          sunTip.style.display = 'none';
+      } else {
+        this.state.isSunday ? sunTip.style.display = 'inline-block' : satTip.style.display = 'inline-block';
+      }
+    })
   }
 
   selectDay = e => {
@@ -49,7 +58,7 @@ class Schedule extends React.Component {
         });
       }, 350)
       sun.classList.add('selected');
-      sunTip.style.display =  window.innerWidth < 570 ? 'none' : 'inline-block';
+      sunTip.style.display =  window.innerWidth < 876 ? 'none' : 'inline-block';
       sun.style.pointerEvents = 'none';
     } else {
       sun.style.pointerEvents = 'auto';
@@ -61,7 +70,7 @@ class Schedule extends React.Component {
         });
       }, 350);
       sat.classList.add('selected')
-      satTip.style.display = window.innerWidth < 570 ? 'none' : 'inline-block';
+      satTip.style.display = window.innerWidth < 876 ? 'none' : 'inline-block';
       sat.style.pointerEvents = 'none';
     }
   }
