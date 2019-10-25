@@ -14,12 +14,12 @@ function Landing() {
       <div className='landing-headline'>NYC's premier blockchain hackathon hosted by BlockFest Group</div>
       <div className="web-wrapper">
         <div className='line-1-web'>
-          <a target="none" href='https://airtable.com/shrpW3DIbUY4UP27j' className='hack-link-web'>
+          <a target="none" href='https://airtable.com/shrd7eKzXp3bFFmlR' className='hack-link-web'>
             <div className='apply-web'>
               <div className='apply-text-web'>Apply to Hack</div>
             </div>
           </a>
-          <a target='none' href='https://airtable.com/shrEZjdFlZAPWUM5a' className='sponsor-link-web'>
+          <a target='none' href='https://airtable.com/shrS48Pj6Zp8ljEcY' className='sponsor-link-web'>
             <div className='sponsor-web'>
                 Become a sponsor
             </div>

@@ -23,7 +23,7 @@ const SundaySchedule = [
 
 class Schedule extends React.Component {
 
-  state = {isSunday: false, satTip: true, sunTip: false};
+  state = {isSunday: false};
 
   componentDidMount() {
     window.addEventListener('resize', this.handleResize);
